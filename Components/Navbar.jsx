@@ -7,11 +7,14 @@ const Nav = styled.nav`
   color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
 `;
+
 const Navbar = () => {
   return (
     <Nav>
-      <div>
+      <div className="navlink">
         <Link href="/">
           <a>LOGO</a>
         </Link>
@@ -21,10 +24,10 @@ const Navbar = () => {
           <a>Home</a>
         </Link>
         <Link href="/about">
-          <a>about</a>
+          <a>About</a>
         </Link>
         <Link href="/contact">
-          <a>contact</a>
+          <a>Contact</a>
         </Link>
       </div>
     </Nav>
