@@ -5,6 +5,8 @@ const Nav = styled.nav`
   background: #000;
   height: 80px;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 `;
 const Navbar = () => {
   return (
