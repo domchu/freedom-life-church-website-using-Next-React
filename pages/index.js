@@ -8,13 +8,13 @@ const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  background-color: #fff;
 `;
 
 const Heading = styled.h1`
-  color: white;
-  font-size: 3rem;
-  font-weight: bold;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 900;
 `;
 
 export default function Home() {
