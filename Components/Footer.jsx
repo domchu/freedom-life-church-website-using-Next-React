@@ -9,7 +9,11 @@ const FooterSection = styled.div`
   align-items: center;
 `;
 const Footer = () => {
-  return <FooterSection>Next 2020 all right reserved</FooterSection>;
+  return (
+    <FooterSection>
+      Copyright &copy; Next/React by Mr Dominic 2022 all right reserved
+    </FooterSection>
+  );
 };
 
 export default Footer;
