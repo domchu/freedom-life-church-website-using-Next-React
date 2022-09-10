@@ -30,6 +30,12 @@ const Navbar = () => {
         <Link href="/about" passHref>
           <StyledLink>About</StyledLink>
         </Link>
+        <Link href="/blog" passHref>
+          <StyledLink>Blog</StyledLink>
+        </Link>
+        <Link href="/services" passHref>
+          <StyledLink>Services</StyledLink>
+        </Link>
         <Link href="/contact" passHref>
           <StyledLink>Contact</StyledLink>
         </Link>
