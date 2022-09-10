@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const Nav = styled.nav`
   background: #000;
@@ -8,7 +9,22 @@ const Nav = styled.nav`
 const Navbar = () => {
   return (
     <Nav>
-      <h1>Navbar</h1>
+      <div>
+        <Link href="/">
+          <a>LOGO</a>
+        </Link>
+      </div>
+      <div>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/about">
+          <a>about</a>
+        </Link>
+        <Link href="/contact">
+          <a>contact</a>
+        </Link>
+      </div>
     </Nav>
   );
 };
