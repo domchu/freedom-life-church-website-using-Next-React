@@ -9,7 +9,8 @@ const Banner = () => {
       <stack>
         <Text fontSize="sm">Welcome to our church</Text>
         <Text fontSize="6xl">
-          BECOME A PART OF <br></br>OUR COMMUNITY
+          BECOME A PART OF <br />
+          OUR COMMUNITY
         </Text>
       </stack>
       <stack>
@@ -20,7 +21,8 @@ const Banner = () => {
       <div className="dash-text">
         <BsDash />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, eos!
+          Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Iusto,
+          eos!
         </p>
       </div>
     </div>
