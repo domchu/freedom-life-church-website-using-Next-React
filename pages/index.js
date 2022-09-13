@@ -2,6 +2,7 @@ import Head from "next/head";
 // import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
+import HomePage from "../Components/HomePage/HomePage";
 
 const Hero = styled.div`
   height: 60vh;
@@ -29,6 +30,7 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
         />
       </Head>
+      <HomePage />
       <Hero>
         <heading>Home page</heading>
       </Hero>
