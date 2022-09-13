@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Text } from "@chakra-ui/react";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 const Banner = () => {
   return (
