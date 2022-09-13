@@ -1,4 +1,4 @@
-import Layout from "../Components/Layout";
+import Layout from "../Components/container/Layout";
 import "../styles/globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 
