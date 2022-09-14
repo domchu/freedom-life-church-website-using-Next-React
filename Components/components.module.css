@@ -9,14 +9,7 @@
 .dash__text {
   display: flex;
 }
-.banner__container {
-  background-image: url("../public/Images/banner.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 60vh;
-}
+
 .banner__text {
-  padding: "0 5rem";
+  padding: 0 5rem;
 }
