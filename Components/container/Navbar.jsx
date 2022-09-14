@@ -12,6 +12,7 @@ const Nav = {
   justifyContent: "space-between",
   alignItems: "center",
   padding: "0 5rem",
+  textTransform: "uppercase",
 };
 const StyledLink = {
   margin: "0 2rem",
@@ -22,6 +23,7 @@ const NavLink = {
   flex: "1",
 };
 const contact = {
+  textTransform: "uppercase",
   flex: "3",
   display: "flex",
   justifyContent: "flex-end",
@@ -57,7 +59,7 @@ const Navbar = () => {
       <div style={contact}>
         <Link href="/contact" passHref>
           <Button colorScheme="yellow" size="md" p="7" style={StyledLink}>
-            Contact
+            CONTACT US
           </Button>
         </Link>
       </div>
