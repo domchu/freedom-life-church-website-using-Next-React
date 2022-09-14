@@ -33,3 +33,43 @@ import team4 from "./team4.png";
 import value3 from "./value3.png";
 import value4 from "./value4.png";
 import world from "./world.png";
+
+const image = {
+  aboutBanner,
+  aboutImg,
+  banner,
+  benefit1,
+  benefit2,
+  benefit3,
+  benefit4,
+  blogBanner,
+  blogImg,
+  clockIcon,
+  contactBanner,
+  icon,
+  icon1,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  imageOverlay,
+  logo,
+  love1,
+  love2,
+  love3,
+  love4,
+  quoteIcon,
+  sermonBanner,
+  sermonEvent,
+  sermonImage,
+  sermonImg,
+  team1,
+  team2,
+  team3,
+  team4,
+  value3,
+  value4,
+  world,
+};
+
+export default image;
