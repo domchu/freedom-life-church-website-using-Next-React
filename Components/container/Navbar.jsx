@@ -1,49 +1,53 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 import Link from "next/link";
+import Images from "../../public/Image";
+import Image from "next/image";
 
-const Nav = styled.nav`
-  background: #000;
-  height: 80px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 3rem;
-`;
-const StyledLink = styled.a`
-  margin: 0 2rem;
-  font-size: 1.5em;
-`;
+const Nav = {
+  background: "#000",
+  height: "80px",
+  color: "#fff",
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  padding: "0 3rem",
+};
+const StyledLink = {
+  margin: "0 2rem",
+  fontSize: "1.5em",
+};
 
 const Navbar = () => {
   return (
-    <Nav>
+    <div style={Nav}>
       <div>
         <Link href="/" passHref>
-          <a>LOGO</a>
+          <a>
+            <Image src={Images.logo} alt="" />
+          </a>
         </Link>
       </div>
       <div>
         <Link href="/" passHref>
-          <StyledLink>Home</StyledLink>
+          <a style={StyledLink}>Home</a>
         </Link>
         <Link href="/about" passHref>
-          <StyledLink>About</StyledLink>
+          <a style={StyledLink}>About</a>
         </Link>
         <Link href="/blog" passHref>
-          <StyledLink>Blog</StyledLink>
+          <a style={StyledLink}>Blog</a>
         </Link>
         <Link href="/services" passHref>
-          <StyledLink>Services</StyledLink>
+          <a style={StyledLink}>Services</a>
         </Link>
         <Link href="/contact" passHref>
-          <StyledLink>Contact</StyledLink>
+          <a style={StyledLink}>Contact</a>
         </Link>
         <Link href="/404" passHref>
-          <StyledLink></StyledLink>
+          <a style={StyledLink}></a>
         </Link>
       </div>
-    </Nav>
+    </div>
   );
 };
 
