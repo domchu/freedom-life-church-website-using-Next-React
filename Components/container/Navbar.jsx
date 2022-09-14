@@ -32,6 +32,12 @@ const Logo = {
   flex: "1",
 };
 
+const NavLine = {
+  height: "100%",
+  backgroundColor: "gray",
+  width: "2px",
+};
+
 const Navbar = () => {
   return (
     <div style={Nav}>
@@ -42,6 +48,7 @@ const Navbar = () => {
           </a>
         </Link>
       </div>
+      <div style={NavLine}></div>
       <div style={NavLink}>
         <Link href="/" passHref>
           <a style={StyledLink}>Home</a>
