@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { Text } from "@chakra-ui/react";
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import { BsDash } from "react-icons/bs";
+import components from "../components.module.css";
 
 const Banner = () => {
   return (
-    <div className="banner__container">
+    <div className={components.banner__container}>
       <stack>
         <Text fontSize="sm">Welcome to our church</Text>
         <Text fontSize="6xl">
