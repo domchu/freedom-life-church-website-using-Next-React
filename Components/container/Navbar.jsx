@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Images from "../../public/Image";
 import Image from "next/image";
+import { Button, ButtonGroup } from "@chakra-ui/react";
 
 const Nav = {
   background: "#000",
@@ -10,24 +11,36 @@ const Nav = {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "0 3rem",
+  padding: "0 5rem",
 };
 const StyledLink = {
   margin: "0 2rem",
   fontSize: "1.5em",
 };
+const NavLink = {
+  alignItems: "center",
+  flex: "1",
+};
+const contact = {
+  flex: "3",
+  display: "flex",
+  justifyContent: "flex-end",
+};
+const Logo = {
+  flex: "1",
+};
 
 const Navbar = () => {
   return (
     <div style={Nav}>
-      <div>
+      <div style={Logo}>
         <Link href="/" passHref>
           <a>
             <Image src={Images.logo} alt="" />
           </a>
         </Link>
       </div>
-      <div>
+      <div style={NavLink}>
         <Link href="/" passHref>
           <a style={StyledLink}>Home</a>
         </Link>
@@ -40,8 +53,12 @@ const Navbar = () => {
         <Link href="/services" passHref>
           <a style={StyledLink}>Services</a>
         </Link>
+      </div>
+      <div style={contact}>
         <Link href="/contact" passHref>
-          <a style={StyledLink}>Contact</a>
+          <Button colorScheme="yellow" size="md" p="7" style={StyledLink}>
+            Contact
+          </Button>
         </Link>
       </div>
     </div>

@@ -20,7 +20,6 @@ import logo from "./Images/logo.png";
 import love1 from "./Images/love1.png";
 import love2 from "./Images/love2.png";
 import love3 from "./Images/love3.png";
-
 import quoteIcon from "./Images/Quote-icon.png";
 import sermonBanner from "./Images/sermon-banner.png";
 import sermonEvent from "./Images/sermon-event.png";
