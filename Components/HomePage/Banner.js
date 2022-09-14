@@ -8,8 +8,10 @@ const Banner = () => {
   return (
     <div className={components.banner__container}>
       <stack>
-        <Text fontSize="sm">Welcome to our church</Text>
-        <Text fontSize="6xl">
+        <Text fontSize="sm" color="#fff">
+          Welcome to our church
+        </Text>
+        <Text fontSize="6xl" color="#fff">
           BECOME A PART OF <br />
           OUR COMMUNITY
         </Text>
@@ -19,12 +21,12 @@ const Banner = () => {
           LEARN MORE
         </Button>
       </stack>
-      <div className="dash-text">
-        <BsDash />
-        <p>
-          Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Iusto,
+      <div className={components.dash__text} color="#fff">
+        <BsDash color="#fff" />
+        <Text color="#fff">
+          Lorem ipsum dolor si amet consectetur <br /> adipisicing elit. Iusto,
           eos!
-        </p>
+        </Text>
       </div>
     </div>
   );
