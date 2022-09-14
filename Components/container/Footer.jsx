@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import components from "../components.module.css";
 
-const FooterSection = {
+const Section = {
   backgroundColor: "#000",
   color: "#fff",
   height: "60px",
@@ -11,9 +12,9 @@ const FooterSection = {
 
 const Footer = () => {
   return (
-    <Footer style={FooterSection}>
+    <footer style={Section}>
       Copyright &copy; Next/React by Mr Dominic 2022 all right reserved
-    </Footer>
+    </footer>
   );
 };
 
