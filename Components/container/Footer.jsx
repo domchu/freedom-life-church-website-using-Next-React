@@ -35,6 +35,24 @@ const Footer = () => {
           FINSWEET@EXAMPLE.COM
         </Text>
       </div>
+      <div>
+        <span>QUICKLINKS</span>
+        <div style={components.QuickLinks}>
+          <Link href="/" passHref>
+            <a>Home</a>
+          </Link>
+          <Link href="/about" passHref>
+            <a>About us</a>
+          </Link>
+          <Link href="/services" passHref>
+            <a>Sermon</a>
+          </Link>
+          <Link href="/blog" passHref>
+            <a>Blog</a>
+          </Link>
+        </div>
+      </div>
+
       {/* Copyright &copy; Next/React by Mr Dominic 2022 all right reserved */}
     </footer>
   );
