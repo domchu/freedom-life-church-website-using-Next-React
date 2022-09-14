@@ -6,7 +6,7 @@ import { Button, ButtonGroup } from "@chakra-ui/react";
 
 const Nav = {
   background: "#000",
-  height: "80px",
+  height: "90px",
   color: "#fff",
   display: "flex",
   justifyContent: "space-between",
