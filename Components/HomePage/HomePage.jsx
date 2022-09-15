@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import ChurchRelevant from "./ChurchRelevant";
 
 const HomePage = () => {
   return (
