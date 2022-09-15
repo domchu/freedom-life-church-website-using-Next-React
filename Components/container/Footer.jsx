@@ -23,6 +23,9 @@ const Anchor = {
 const Connect = {
   color: "#fff",
   display: " flex",
+  fontSize: "2rem",
+  cursor: "pointer",
+  margin: "0 .5rem 0 0",
 };
 const ConnectText = {
   fontSize: "2rem",
@@ -70,9 +73,9 @@ const Footer = () => {
       <div>
         <h3 style={ConnectText}>Connect</h3>
         <div style={Connect}>
-          <BsFacebook fontSize="2rem" />
-          <BsTwitter fontSize="2rem" />
-          <BsLinkedin fontSize="2rem" />
+          <BsFacebook />
+          <BsTwitter />
+          <BsLinkedin />
         </div>
       </div>
 
