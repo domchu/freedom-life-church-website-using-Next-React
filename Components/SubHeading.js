@@ -1,11 +1,16 @@
 import React from "react";
 import { Text } from "@chakra-ui/react";
+import components from "./components.module.css";
 
 const SubHeading = (props) => {
   return (
-    <div>
-      <Text fontSize="5x1">{props.pText}</Text>
-      <Text fontSize="6x1">{props.hText}</Text>
+    <div className={components.sub__heading}>
+      <Text fontSize="10px" align="center" fontWeight="600">
+        {props.pText}
+      </Text>
+      <Text fontSize="3rem" align="center" fontWeight="700">
+        {props.hText}
+      </Text>
     </div>
   );
 };
