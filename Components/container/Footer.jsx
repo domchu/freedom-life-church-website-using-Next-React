@@ -34,6 +34,9 @@ const Search = {
   padding: "1rem",
   margin: "1rem",
   borderRadius: "5px",
+  color: "white",
+  backgroundColor: "transparent",
+  border: "1px solid gray",
 };
 
 const Footer = () => {
