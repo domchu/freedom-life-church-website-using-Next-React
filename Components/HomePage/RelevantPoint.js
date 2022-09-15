@@ -7,11 +7,7 @@ const RelevantPoint = (props) => {
     <div>
       <Image src={Images.icon1} alt="" />
       <h2>{props.title}</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
-        harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
-        sequi!
-      </p>
+      <p>{props.text}</p>
     </div>
   );
 };

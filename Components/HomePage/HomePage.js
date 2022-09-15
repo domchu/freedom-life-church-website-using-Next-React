@@ -7,9 +7,24 @@ const HomePage = () => {
     <div>
       <Banner />
       <ChurchRelevant />
-      <RelevantPoint title="ABOUT US" />
-      <RelevantPoint title="GET INVOLVED" />
-      <RelevantPoint title="GIVING BACK" />
+      <RelevantPoint
+        title="ABOUT US"
+        text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
+        harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
+        sequi!"
+      />
+      <RelevantPoint
+        title="GET INVOLVED"
+        text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
+        harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
+        sequi!"
+      />
+      <RelevantPoint
+        title="GIVING BACK"
+        text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
+        harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
+        sequi!"
+      />
     </div>
   );
 };
