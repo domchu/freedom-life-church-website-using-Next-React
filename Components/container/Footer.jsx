@@ -9,8 +9,12 @@ const Section = {
   color: "#fff",
   height: "50vh",
   display: " flex",
-  justifyContent: "center",
+  justifyContent: "space-around",
   alignItems: "center",
+};
+const QuickLink = {
+  display: "flex",
+  flexDirection: "column",
 };
 
 const Footer = () => {
@@ -36,8 +40,8 @@ const Footer = () => {
         </Text>
       </div>
       <div>
-        <span>QUICKLINKS</span>
-        <div style={components.QuickLinks}>
+        <span>QUICK LINKS</span>
+        <div style={QuickLink}>
           <Link href="/" passHref>
             <a>Home</a>
           </Link>
