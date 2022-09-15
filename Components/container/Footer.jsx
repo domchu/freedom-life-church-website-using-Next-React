@@ -25,17 +25,19 @@ const Anchor = {
 const Connect = {
   color: "#fff",
   display: " flex",
-  fontSize: "2rem",
+  fontSize: "1rem",
   cursor: "pointer",
+  margin: "0 2rem 0",
 };
 const ConnectText = {
   fontSize: "2rem",
 };
 const Search = {
   padding: "1rem",
-  margin: "1rem 0",
   borderRadius: "5px",
   color: "#fff",
+  // size: "md",
+  border: "none",
   backgroundColor: "transparent",
   border: "1px solid gray",
 };
@@ -80,19 +82,19 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div style={{ height: "180px" }}>
           <h3 style={ConnectText}>Connect</h3>
-          <div style={Connect}>
-            <BsFacebook marginRight="2rem" />
-            <BsTwitter marginRight=" 2rem" />
+          <Flex style={(Connect, { justifyContent: "space-around" })}>
+            <BsFacebook />
+            <BsTwitter />
             <BsLinkedin />
-          </div>
+          </Flex>
         </div>
         <div>
           <Text fontSize="4xl">
             SUBSCRIBE TO GET LATEST <br /> UPDATES AND NEWS
           </Text>
-          <Flex>
+          <div height="60px" display="flex">
             <input
               type="text"
               name=""
@@ -102,19 +104,18 @@ const Footer = () => {
             <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
               SUBSCRIBE
             </Button>
-          </Flex>
+          </div>
         </div>
       </footer>
       <Text
         display="flex"
-        textAlign="center"
         justifyContent="center"
-        alignItems="center"
+        // alignItems="center"
         backgroundColor="#000"
         color="#fff"
         fontSize="1.5rem"
       >
-        &copy; Copyright Next/React by Mr Dominic 2022 all right reserved
+        &copy; Copyright 2022 all right reserved Next/React by Mr Dominic
       </Text>
     </div>
   );
