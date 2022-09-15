@@ -5,7 +5,7 @@ import Image from "next/image";
 const RelevantPoint = (props) => {
   return (
     <div>
-      <Image src={Images.icon1} alt="" />
+      <Image src={props.icon} alt="" />
       <h2>{props.title}</h2>
       <p>{props.text}</p>
     </div>
