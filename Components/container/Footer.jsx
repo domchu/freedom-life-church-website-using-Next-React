@@ -71,8 +71,8 @@ const Footer = () => {
         <h3 style={ConnectText}>Connect</h3>
         <div style={Connect}>
           <BsFacebook fontSize="2rem" />
-          <BsTwitter />
-          <BsLinkedin />
+          <BsTwitter fontSize="2rem" />
+          <BsLinkedin fontSize="2rem" />
         </div>
       </div>
 
