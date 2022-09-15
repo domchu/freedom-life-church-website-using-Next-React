@@ -5,6 +5,7 @@ import Link from "next/link";
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
 const Section = {
   backgroundColor: "#000",
@@ -91,15 +92,17 @@ const Footer = () => {
           <Text fontSize="4xl">
             SUBSCRIBE TO GET LATEST <br /> UPDATES AND NEWS
           </Text>
-          <input
-            type="text"
-            name=""
-            placeholder="Youremail@gmail.com"
-            style={Search}
-          />
-          <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
-            SUBSCRIBE
-          </Button>
+          <Flex>
+            <input
+              type="text"
+              name=""
+              placeholder="Youremail@gmail.com"
+              style={Search}
+            />
+            <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
+              SUBSCRIBE
+            </Button>
+          </Flex>
         </div>
       </footer>
       <Text
