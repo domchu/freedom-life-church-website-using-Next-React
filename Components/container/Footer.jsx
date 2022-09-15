@@ -106,6 +106,7 @@ const Footer = () => {
         alignItems="center"
         backgroundColor="#000"
         color="#fff"
+        fontSize="1.5rem"
       >
         Copyright &copy; Next/React by Mr Dominic 2022 all right reserved
       </Text>
