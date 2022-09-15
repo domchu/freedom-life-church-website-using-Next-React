@@ -17,6 +17,9 @@ const QuickLink = {
   display: "flex",
   flexDirection: "column",
 };
+const Anchor = {
+  margin: ".2rem 0 .9rem",
+};
 const Connect = {
   color: "#fff",
   display: " flex",
@@ -48,16 +51,16 @@ const Footer = () => {
         <span>QUICK LINKS</span>
         <div style={QuickLink}>
           <Link href="/" passHref>
-            <a>Home</a>
+            <a style={Anchor}>Home</a>
           </Link>
           <Link href="/about" passHref>
-            <a>About us</a>
+            <a style={Anchor}>About us</a>
           </Link>
           <Link href="/services" passHref>
-            <a>Sermon</a>
+            <a style={Anchor}>Sermon</a>
           </Link>
           <Link href="/blog" passHref>
-            <a>Blog</a>
+            <a style={Anchor}>Blog</a>
           </Link>
         </div>
       </div>
