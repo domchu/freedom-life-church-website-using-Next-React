@@ -24,6 +24,9 @@ const Connect = {
   color: "#fff",
   display: " flex",
 };
+const ConnectText = {
+  fontSize: "2rem",
+};
 
 const Footer = () => {
   return (
@@ -65,9 +68,9 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h3>Connect</h3>
+        <h3 style={ConnectText}>Connect</h3>
         <div style={Connect}>
-          <BsFacebook />
+          <BsFacebook fontSize="2rem" />
           <BsTwitter />
           <BsLinkedin />
         </div>
