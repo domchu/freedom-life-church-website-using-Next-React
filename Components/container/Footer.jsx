@@ -25,7 +25,6 @@ const Connect = {
   display: " flex",
   fontSize: "2rem",
   cursor: "pointer",
-  margin: "0 1rem",
 };
 const ConnectText = {
   fontSize: "2rem",
@@ -34,7 +33,7 @@ const Search = {
   padding: "1rem",
   margin: "1rem",
   borderRadius: "5px",
-  color: "white",
+  color: "#fff",
   backgroundColor: "transparent",
   border: "1px solid gray",
 };
@@ -82,9 +81,9 @@ const Footer = () => {
         <div>
           <h3 style={ConnectText}>Connect</h3>
           <div style={Connect}>
-            <BsFacebook margin="0 1rem" />
-            <BsTwitter margin="0 1rem" />
-            <BsLinkedin margin="0 1rem" />
+            <BsFacebook marginRight="2rem" />
+            <BsTwitter marginRight=" 2rem" />
+            <BsLinkedin />
           </div>
         </div>
         <div>
@@ -108,7 +107,7 @@ const Footer = () => {
         color="#fff"
         fontSize="1.5rem"
       >
-        Copyright &copy; Next/React by Mr Dominic 2022 all right reserved
+        &copy; Copyright Next/React by Mr Dominic 2022 all right reserved
       </Text>
     </div>
   );
