@@ -7,7 +7,9 @@ const HomePage = () => {
     <div>
       <Banner />
       <ChurchRelevant />
-      <RelevantPoint />
+      <RelevantPoint title="ABOUT US" />
+      <RelevantPoint title="GET INVOLVED" />
+      <RelevantPoint title="GIVING BACK" />
     </div>
   );
 };
