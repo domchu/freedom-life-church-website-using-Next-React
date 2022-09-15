@@ -25,10 +25,15 @@ const Connect = {
   display: " flex",
   fontSize: "2rem",
   cursor: "pointer",
-  margin: "0 .5rem 0 0",
+  margin: "0 1rem",
 };
 const ConnectText = {
   fontSize: "2rem",
+};
+const Search = {
+  padding: "1rem",
+  margin: "1rem",
+  borderRadius: "5px",
 };
 
 const Footer = () => {
@@ -73,10 +78,21 @@ const Footer = () => {
       <div>
         <h3 style={ConnectText}>Connect</h3>
         <div style={Connect}>
-          <BsFacebook />
-          <BsTwitter />
-          <BsLinkedin />
+          <BsFacebook margin="0 1rem" />
+          <BsTwitter margin="0 1rem" />
+          <BsLinkedin margin="0 1rem" />
         </div>
+      </div>
+      <div>
+        <Text fontSize="4xl">
+          SUBSCRIBE TO GET LATEST <br /> UPDATES AND NEWS
+        </Text>
+        <input
+          type="text"
+          name=""
+          placeholder="Youremail@gmail.com"
+          style={Search}
+        />
       </div>
 
       {/* Copyright &copy; Next/React by Mr Dominic 2022 all right reserved */}
