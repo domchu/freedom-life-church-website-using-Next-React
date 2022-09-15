@@ -2,6 +2,7 @@ import Image from "next/image";
 import Images from "../../public/Image";
 import components from "../components.module.css";
 import Link from "next/link";
+import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { Text } from "@chakra-ui/react";
 
 const Section = {
@@ -15,6 +16,10 @@ const Section = {
 const QuickLink = {
   display: "flex",
   flexDirection: "column",
+};
+const Connect = {
+  color: "#fff",
+  display: " flex",
 };
 
 const Footer = () => {
@@ -54,6 +59,14 @@ const Footer = () => {
           <Link href="/blog" passHref>
             <a>Blog</a>
           </Link>
+        </div>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <div style={Connect}>
+          <BsFacebook />
+          <BsTwitter />
+          <BsLinkedin />
         </div>
       </div>
 
