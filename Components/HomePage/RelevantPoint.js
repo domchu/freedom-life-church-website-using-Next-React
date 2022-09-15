@@ -2,11 +2,11 @@
 import Images from "../../public/Image";
 import Image from "next/image";
 
-const RelevantPoint = () => {
+const RelevantPoint = (props) => {
   return (
     <div>
       <Image src={Images.icon1} alt="" />
-      <h2>ABOUT US</h2>
+      <h2>{props.title}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
