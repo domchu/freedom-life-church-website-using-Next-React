@@ -4,6 +4,7 @@ const HomePage = () => {
   return (
     <div>
       <Banner />
+      <ChurchRelevant />
     </div>
   );
 };
