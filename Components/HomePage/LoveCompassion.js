@@ -1,7 +1,9 @@
+import SubHeading from "../SubHeading";
+
 const LoveCompassion = () => {
   return (
     <div>
-      <h2>love</h2>
+      <SubHeading pText="SUB-HEADLINE" hText="LOVE AND COMPASSION" />
     </div>
   );
 };
