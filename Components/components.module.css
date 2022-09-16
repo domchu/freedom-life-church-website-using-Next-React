@@ -18,5 +18,11 @@
 }
 .relevant__container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+}
+.relevant__point {
+  width: 300px;
+  background-color: antiquewhite;
+  padding: 4rem 2rem;
+  margin: 1rem 0;
 }
