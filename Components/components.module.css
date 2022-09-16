@@ -18,7 +18,7 @@
 }
 .relevant__container {
   display: flex;
-  /* justify-content: space-around; */
+  /* justify-content: space-between; */
   margin: 2rem 0;
 }
 .relevant__point {
