@@ -19,12 +19,14 @@
 .relevant__container {
   display: flex;
   /* justify-content: space-around; */
+  margin: 2rem 0;
 }
 .relevant__point {
   width: 300px;
-  background-color: antiquewhite;
+  background-color: #faebd7;
   padding: 5rem 3rem;
   margin: 1rem 0;
+  /* border-bottom: 2px solid #faebd7; */
 }
 .title {
   margin: 1rem 0;
