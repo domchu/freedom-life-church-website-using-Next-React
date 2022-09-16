@@ -1,7 +1,6 @@
 import Banner from "./Banner";
 import ChurchRelevant from "./ChurchRelevant";
 import RelevantPoint from "./RelevantPoint";
-// import Image from "next/image";
 import Images from "../../public/Image";
 
 const HomePage = () => {
@@ -17,14 +16,14 @@ const HomePage = () => {
         sequi!"
       />
       <RelevantPoint
-        icon={Images.icon1}
+        icon={Images.icon2}
         title="GET INVOLVED"
         text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
         sequi!"
       />
       <RelevantPoint
-        icon={Images.icon1}
+        icon={Images.icon4}
         title="GIVING BACK"
         text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad

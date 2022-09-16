@@ -16,3 +16,7 @@
 .sub__heading {
   margin-top: 5rem;
 }
+.relevant__container {
+  display: flex;
+  justify-content: space-around;
+}
