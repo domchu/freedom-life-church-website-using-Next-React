@@ -1,4 +1,6 @@
 import SubHeading from "../SubHeading";
+import { Text } from "@chakra-ui/react";
+import components from "../components.module.css";
 
 const LoveCompassion = () => {
   return (
