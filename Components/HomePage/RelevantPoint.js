@@ -6,7 +6,7 @@ const RelevantPoint = (props) => {
     <div className={components.relevant__container}>
       <div className={components.relevant__point}>
         <Image src={props.icon} alt="icon" />
-        <h2>{props.title}</h2>
+        <h2 className={components.title}>{props.title}</h2>
         <p>{props.text}</p>
       </div>
     </div>
