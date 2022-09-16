@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import ChurchRelevant from "./ChurchRelevant";
 import RelevantPoint from "./RelevantPoint";
 import Images from "../../public/Image";
+import LoveCompassion from "./LoveCompassion";
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
         sequi!"
       />
+      <LoveCompassion />
     </div>
   );
 };
