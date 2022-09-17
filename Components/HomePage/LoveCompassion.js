@@ -23,11 +23,32 @@ const LoveCompassion = () => {
           LEARN MORE
         </Button>
       </stack>
-      <Flex>
+      <Flex justifyContent="space-around" alignItems="center">
         <div className={components.img__container}>
-          <Image src={Images.love1} alt="love1" width="300px" height="350px" />
-          <Image src={Images.love2} alt="love1" width="300px" height="350px" />
-          <Image src={Images.love3} alt="love1" width="300px" height="350px" />
+          <div className={components.love__img}>
+            <Image
+              src={Images.love1}
+              alt="love1"
+              width="300px"
+              height="350px"
+            />
+          </div>
+          <div className={components.love__img}>
+            <Image
+              src={Images.love2}
+              alt="love1"
+              width="350px"
+              height="400px"
+            />
+          </div>
+          <div className={components.love__img}>
+            <Image
+              src={Images.love3}
+              alt="love1"
+              width="300px"
+              height="350px"
+            />
+          </div>
         </div>
       </Flex>
     </>

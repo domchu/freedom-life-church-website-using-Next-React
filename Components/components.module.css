@@ -42,4 +42,8 @@
   align-items: center;
 }
 .img__container {
+  display: flex;
+}
+.love__img {
+  margin: 1rem;
 }
