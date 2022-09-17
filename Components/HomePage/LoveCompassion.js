@@ -1,6 +1,8 @@
 import SubHeading from "../SubHeading";
 import { Text, Button } from "@chakra-ui/react";
 import components from "../components.module.css";
+import Image from "next/image";
+import Images from "../../public/Image";
 
 const LoveCompassion = () => {
   return (
@@ -19,6 +21,9 @@ const LoveCompassion = () => {
           LEARN MORE
         </Button>
       </stack>
+      <div className={components.img__container}>
+        <img src={Image.aboutImg} alt="" width="300px" height="350px" />
+      </div>
     </>
   );
 };
