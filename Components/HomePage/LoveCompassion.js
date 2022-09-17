@@ -14,6 +14,11 @@ const LoveCompassion = () => {
         beatae repellat molestias aperiam quas facilis aspernatur odio
         laudantium! Distinctio, officia amet.
       </p>
+      <stack>
+        <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
+          LEARN MORE
+        </Button>
+      </stack>
     </>
   );
 };
