@@ -31,7 +31,10 @@
   font-size: 2rem;
 }
 .love__text {
-  align-items: center;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  width: 40%;
 }
 .btn__btn {
   display: flex;
