@@ -3,6 +3,7 @@ import { Text, Button } from "@chakra-ui/react";
 import components from "../components.module.css";
 import Image from "next/image";
 import Images from "../../public/Image";
+import { Flex } from "@chakra-ui/react";
 // import Images from "../../public/Image";
 
 const LoveCompassion = () => {
@@ -22,9 +23,13 @@ const LoveCompassion = () => {
           LEARN MORE
         </Button>
       </stack>
-      <div className={components.img__container}>
-        <Image src={Images.love1} alt="love1" width="300px" height="350px" />
-      </div>
+      <Flex>
+        <div className={components.img__container}>
+          <Image src={Images.love1} alt="love1" width="300px" height="350px" />
+          <Image src={Images.love2} alt="love1" width="300px" height="350px" />
+          <Image src={Images.love3} alt="love1" width="300px" height="350px" />
+        </div>
+      </Flex>
     </>
   );
 };
