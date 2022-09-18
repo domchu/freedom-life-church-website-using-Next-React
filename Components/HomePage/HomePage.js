@@ -3,8 +3,9 @@ import ChurchRelevant from "./ChurchRelevant";
 import RelevantPoint from "./RelevantPoint";
 import Images from "../../public/Image";
 import LoveCompassion from "./LoveCompassion";
-import { Flex, Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import ChurchBenefit from "./ChurchBenefit";
+import Benefit from "./Benefit";
 
 const HomePage = () => {
   return (
@@ -38,6 +39,7 @@ const HomePage = () => {
       </Flex>
       <LoveCompassion />
       <ChurchBenefit />
+      <Benefit />
     </div>
   );
 };
