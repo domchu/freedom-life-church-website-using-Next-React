@@ -53,6 +53,11 @@ const LoveCompassion = () => {
       </Flex>
       <div>
         <SubHeading pText="OUR MISSION $ VISION" hText="CELEBRATE WITH US" />
+        <p className={components.love__text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum
+          eveniet similique! Sed labore non temporibus, velit veniam possimus
+          cumque.
+        </p>
       </div>
     </>
   );
