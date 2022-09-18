@@ -4,7 +4,6 @@ import components from "../components.module.css";
 import Image from "next/image";
 import Images from "../../public/Image";
 import { Flex } from "@chakra-ui/react";
-// import Images from "../../public/Image";
 
 const LoveCompassion = () => {
   return (
@@ -36,10 +35,11 @@ const LoveCompassion = () => {
           <div className={components.love__img}>
             <Image
               src={Images.love2}
+              className={components.love}
               alt="love1"
               width="350px"
               height="400px"
-              marginTop="4rem"
+              // marginTop="4rem !important"
             />
           </div>
           <div className={components.love__img}>
