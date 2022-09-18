@@ -39,7 +39,6 @@ const HomePage = () => {
       </Flex>
       <LoveCompassion />
       <ChurchBenefit />
-      <Benefit />
     </div>
   );
 };
