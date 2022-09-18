@@ -43,7 +43,6 @@
 }
 .img__container {
   display: flex;
-  /* height: auto; */
 }
 .love__img {
   margin: 1rem;

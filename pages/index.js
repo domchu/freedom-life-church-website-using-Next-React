@@ -5,7 +5,7 @@ import styled from "styled-components";
 import HomePage from "../Components/HomePage/HomePage";
 
 const Hero = styled.div`
-  // height: 60vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
