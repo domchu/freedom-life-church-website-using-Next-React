@@ -51,6 +51,9 @@ const LoveCompassion = () => {
           </div>
         </div>
       </Flex>
+      <div>
+        <SubHeading pText="OUR MISSION $ VISION" hText="CELEBRATE WITH US" />
+      </div>
     </>
   );
 };
