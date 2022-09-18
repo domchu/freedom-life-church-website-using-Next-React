@@ -38,7 +38,7 @@ const LoveCompassion = () => {
               className={components.love}
               alt="love1"
               width="350px"
-              height="400px"
+              height="500px"
             />
           </div>
           <div className={components.love__img}>
