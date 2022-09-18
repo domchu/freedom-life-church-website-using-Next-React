@@ -1,5 +1,3 @@
-import components from "../components.module.css";
-import Image from "next/image";
 import Images from "../../public/Image";
 import SubHeading from "../SubHeading";
 import Benefit from "./Benefit";
@@ -13,6 +11,9 @@ const ChurchBenefit = () => {
           hText="THE BENEFITS OF  JOINING OUR CHURCH"
         />
       </div>
+      <Benefit ben={Images.benefit1} />
+      <Benefit />
+      <Benefit />
       <Benefit />
     </div>
   );
