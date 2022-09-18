@@ -12,9 +12,9 @@ const ChurchBenefit = () => {
         />
       </div>
       <Benefit ben={Images.benefit1} />
-      <Benefit />
-      <Benefit />
-      <Benefit />
+      <Benefit ben={Images.benefit2} />
+      <Benefit ben={Images.benefit3} />
+      <Benefit ben={Images.benefit4} />
     </div>
   );
 };
