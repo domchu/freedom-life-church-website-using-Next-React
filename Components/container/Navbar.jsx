@@ -19,7 +19,7 @@ const StyledLink = {
 };
 const NavLink = {
   alignItems: "center",
-  flex: "1",
+  flex: "2",
 };
 const contact = {
   textTransform: "uppercase",
