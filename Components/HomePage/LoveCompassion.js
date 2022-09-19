@@ -6,18 +6,6 @@ import Images from "../../public/Image";
 import { Flex } from "@chakra-ui/react";
 
 const LoveCompassion = () => {
-  // let pa;
-  // let a;
-
-  // for (const x in Images) {
-  //   a = Images[x];
-  //   for (const v in a.love2) {
-  //     pa = a.love2[v];
-
-  //     console.log(pa);
-  //   }
-  // }
-
   return (
     <>
       <div>

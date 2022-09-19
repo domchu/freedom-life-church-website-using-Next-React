@@ -35,6 +35,7 @@
   place-items: center;
   margin: auto;
   width: 50%;
+  text-align: center;
 }
 .btn__btn {
   display: flex;
