@@ -5,9 +5,17 @@ const UpComeSermon = () => {
   return (
     <>
       <div>
-        <SubHeading pText="UPCOMING SERMONS" hText="A CHURCH THAT'S RELEVANT" />
+        <SubHeading
+          pText="UPCOMING SERMONS"
+          hText="JOIN US AND BECOME PART OF SOMETHING GREAT"
+        />
       </div>
-      <Flex></Flex>
+      <Flex>
+        <div className="sermon__text">
+          <p>Upcoming event</p>
+        </div>
+        <div className="sermon__img"></div>
+      </Flex>
     </>
   );
 };
