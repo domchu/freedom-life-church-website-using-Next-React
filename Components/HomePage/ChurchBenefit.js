@@ -1,6 +1,7 @@
 import Images from "../../public/Image";
 import SubHeading from "../SubHeading";
 import Benefit from "./Benefit";
+import { Flex } from "@chakra-ui/react";
 
 const ChurchBenefit = () => {
   return (
@@ -11,12 +12,12 @@ const ChurchBenefit = () => {
           hText="THE BENEFITS OF  JOINING OUR CHURCH"
         />
       </div>
-      <div className="">
+      <Flex>
         <Benefit ben={Images.benefit1} />
         <Benefit ben={Images.benefit2} />
         <Benefit ben={Images.benefit3} />
         <Benefit ben={Images.benefit4} />
-      </div>
+      </Flex>
     </div>
   );
 };
