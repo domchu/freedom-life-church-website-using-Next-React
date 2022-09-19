@@ -12,12 +12,12 @@ const UpComeSermon = () => {
           hText="JOIN US AND BECOME PART OF SOMETHING GREAT"
         />
       </div>
-      <Flex>
+      <Flex justifyContent="center" margin="3rem 0">
         <div className="sermon__text">
-          <p>Upcoming event</p>
+          <h4>Upcoming event</h4>
         </div>
         <div className="sermon__img">
-          <Image src={Images.sermonImage} alt="" />
+          <Image src={Images.sermonImage} alt="sermon image" />
         </div>
       </Flex>
     </>
