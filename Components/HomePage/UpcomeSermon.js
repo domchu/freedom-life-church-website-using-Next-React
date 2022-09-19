@@ -2,6 +2,7 @@ import SubHeading from "../SubHeading";
 import { Flex } from "@chakra-ui/react";
 import Image from "next/image";
 import Images from "../../public/Image";
+import { WiTime4 } from "react-icons/wi";
 
 const UpComeSermon = () => {
   return (
@@ -23,6 +24,7 @@ const UpComeSermon = () => {
             a sunt. Quisquam.
           </p>
           <div className="time">
+            <WiTime4 />
             <span></span>
           </div>
         </div>
