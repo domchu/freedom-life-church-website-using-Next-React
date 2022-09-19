@@ -14,7 +14,10 @@ const ChurchBenefit = () => {
         />
       </div>
       <Flex justifyContent="center" margin="2rem">
-        <Benefit ben={Images.benefit1} />
+        <Benefit
+          ben={Images.benefit1}
+          text=" WATCH AND LISTEN TO OUR SERMONS"
+        />
         <Benefit ben={Images.benefit2} />
         <Benefit ben={Images.benefit3} />
         <Benefit ben={Images.benefit4} />

@@ -64,3 +64,8 @@
   background-color: #f5f2f0;
   padding: 1rem;
 }
+.text {
+  position: absolute;
+  z-index: 5;
+  color: #fff;
+}
