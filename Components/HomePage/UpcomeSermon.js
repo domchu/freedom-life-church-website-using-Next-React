@@ -39,7 +39,7 @@ const UpComeSermon = () => {
           </div>
           <Link href="/sermon" passHref>
             <Button bg="#000" size="md" p="7" m="2rem 0" color="#fff">
-              <a href="">REGISTER</a>
+              <a>REGISTER</a>
             </Button>
           </Link>
         </div>
@@ -50,12 +50,5 @@ const UpComeSermon = () => {
     </>
   );
 };
-{
-  /* <Link href="/contact" passHref>
-  <Button colorScheme="yellow" size="md" p="7" style={StyledLink}>
-    <a>CONTACT US</a>
-  </Button>
-</Link>; */
-}
 
 export default UpComeSermon;
