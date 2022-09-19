@@ -2,7 +2,8 @@ import SubHeading from "../SubHeading";
 import { Flex } from "@chakra-ui/react";
 import Image from "next/image";
 import Images from "../../public/Image";
-import { WiTime4 } from "react-icons/wi";
+import { FcSearch } from "react-icons/fc";
+import { FcClock } from "react-icons/fc";
 
 const UpComeSermon = () => {
   return (
@@ -24,13 +25,13 @@ const UpComeSermon = () => {
             a sunt. Quisquam.
           </p>
           <div className="time">
-            <WiTime4 />
+            <FcClock />
             <span>
               Friday 23:39 IST <br /> sunday 11:20 ISD
             </span>
           </div>
           <div className="time">
-            <WiTime4 />
+            <FcSearch />
             <span>
               Friday 23:39 IST <br /> sunday 11:20 ISD
             </span>
