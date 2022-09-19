@@ -22,6 +22,9 @@ const UpComeSermon = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
             a sunt. Quisquam.
           </p>
+          <div className="time">
+            <span></span>
+          </div>
         </div>
         <div className="sermon__img">
           <Image src={Images.sermonImage} alt="sermon image" />
