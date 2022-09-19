@@ -1,5 +1,4 @@
 import SubHeading from "../SubHeading";
-// import RelevantPoint from "./RelevantPoint";
 
 const ChurchRelevant = () => {
   return (

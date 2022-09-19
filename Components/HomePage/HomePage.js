@@ -6,7 +6,7 @@ import LoveCompassion from "./LoveCompassion";
 import { Flex } from "@chakra-ui/react";
 import ChurchBenefit from "./ChurchBenefit";
 // import Benefit from "./Benefit";
-import UpComeSermon from "./UpcomeSermon";
+import UpComeSermon from "./UpComeSermon";
 
 const HomePage = () => {
   return (
