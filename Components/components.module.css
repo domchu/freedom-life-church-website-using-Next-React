@@ -20,7 +20,7 @@
   margin: 2rem 0;
 }
 .relevant__point {
-  width: 300px;
+  width: 350px;
   background-color: #faebd7;
   padding: 5rem 3rem;
   margin: 1rem 0;
@@ -28,13 +28,13 @@
 .title {
   margin: 1rem 0;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .love__text {
   display: grid;
   place-items: center;
   margin: auto;
-  width: 40%;
+  width: 50%;
 }
 .btn__btn {
   display: flex;
@@ -45,12 +45,17 @@
   display: flex;
 }
 .love__img {
-  margin: 1rem;
+  height: 500px;
+  margin: 15px;
 }
 .love {
-  margin-top: 3rem !important;
-  border-radius: 0 5px 5px 0 !important;
+  border-radius: 30px;
+  height: 100%;
 }
+
 .relevant__ben {
   display: flex;
+}
+.pppp {
+  margin-top: 30px;
 }

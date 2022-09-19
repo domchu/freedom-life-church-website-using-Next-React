@@ -13,7 +13,7 @@ const HomePage = () => {
       <Banner />
       <ChurchRelevant />
       <Flex justifyContent="center">
-        <Flex justifyContent="space-around" w={"70%"}>
+        <Flex justifyContent="space-around" w={"80%"}>
           <RelevantPoint
             icon={Images.icon1}
             title="ABOUT US"

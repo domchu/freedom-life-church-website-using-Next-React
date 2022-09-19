@@ -6,6 +6,18 @@ import Images from "../../public/Image";
 import { Flex } from "@chakra-ui/react";
 
 const LoveCompassion = () => {
+  // let pa;
+  // let a;
+
+  // for (const x in Images) {
+  //   a = Images[x];
+  //   for (const v in a.love2) {
+  //     pa = a.love2[v];
+
+  //     console.log(pa);
+  //   }
+  // }
+
   return (
     <>
       <div>
@@ -32,14 +44,15 @@ const LoveCompassion = () => {
               height="350px"
             />
           </div>
-          <div className={components.love__img}>
-            <Image
-              src={Images.love2}
-              className={components.love}
-              alt="love1"
-              width="350px"
-              height="500px"
-            />
+          <div className="pppp" style={{ marginTop: "40px" }}>
+            <div className={components.love__img}>
+              <Image
+                src={Images.love2}
+                className={components.love}
+                alt="love1"
+                width="350px"
+              />
+            </div>
           </div>
           <div className={components.love__img}>
             <Image
