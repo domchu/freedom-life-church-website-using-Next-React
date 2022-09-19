@@ -1,7 +1,7 @@
 import Images from "../../public/Image";
 import SubHeading from "../SubHeading";
 import Benefit from "./Benefit";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import components from "../components.module.css";
 
 const ChurchBenefit = () => {
@@ -16,8 +16,11 @@ const ChurchBenefit = () => {
       <Flex justifyContent="center" margin="2rem">
         <Benefit
           ben={Images.benefit1}
-          text=" WATCH AND LISTEN TO OUR SERMONS"
+          // text=" WATCH AND LISTEN TO OUR SERMONS"
         />
+        <Text position="absolute" z-index="10" color="red">
+          Lorem ipsum dolor sit amet.
+        </Text>
         <Benefit ben={Images.benefit2} />
         <Benefit ben={Images.benefit3} />
         <Benefit ben={Images.benefit4} />
