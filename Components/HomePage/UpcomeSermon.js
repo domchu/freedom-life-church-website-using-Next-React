@@ -1,5 +1,5 @@
 import SubHeading from "../SubHeading";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
 import Images from "../../public/Image";
 import { FcSearch } from "react-icons/fc";
@@ -33,7 +33,7 @@ const UpComeSermon = () => {
           <div className="time">
             <FcSearch />
             <span>
-              Friday 23:39 IST <br /> sunday 11:20 ISD
+              Np 233 main st. New York, <br /> United state
             </span>
           </div>
         </div>
@@ -41,6 +41,10 @@ const UpComeSermon = () => {
           <Image src={Images.sermonImage} alt="sermon image" />
         </div>
       </Flex>
+
+      <Button>
+        <a href=""></a>
+      </Button>
     </>
   );
 };
