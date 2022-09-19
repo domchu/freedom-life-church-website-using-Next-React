@@ -33,18 +33,17 @@ const UpComeSermon = () => {
           <div className="time">
             <FcSearch />
             <span>
-              Np 233 main st. New York, <br /> United state
+              No 233 main st. New York, <br /> United state
             </span>
           </div>
+          <Button bg="#000" size="md" p="7" m="2rem 0" color="#fff">
+            <a href="">REGISTER</a>
+          </Button>
         </div>
         <div className="sermon__img">
           <Image src={Images.sermonImage} alt="sermon image" />
         </div>
       </Flex>
-
-      <Button>
-        <a href=""></a>
-      </Button>
     </>
   );
 };
