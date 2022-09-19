@@ -1,5 +1,11 @@
+import SubHeading from "../SubHeading";
+
 const UpComeSermon = () => {
-  return <div></div>;
+  return (
+    <Flex>
+      <SubHeading />
+    </Flex>
+  );
 };
 
 export default UpComeSermon;
