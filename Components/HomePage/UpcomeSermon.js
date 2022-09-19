@@ -1,5 +1,5 @@
-const UpcomeSermon = () => {
+const UpComeSermon = () => {
   return <div></div>;
 };
 
-export default UpcomeSermon;
+export default UpComeSermon;
