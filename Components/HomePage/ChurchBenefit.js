@@ -11,10 +11,12 @@ const ChurchBenefit = () => {
           hText="THE BENEFITS OF  JOINING OUR CHURCH"
         />
       </div>
-      <Benefit ben={Images.benefit1} />
-      <Benefit ben={Images.benefit2} />
-      <Benefit ben={Images.benefit3} />
-      <Benefit ben={Images.benefit4} />
+      <div className="">
+        <Benefit ben={Images.benefit1} />
+        <Benefit ben={Images.benefit2} />
+        <Benefit ben={Images.benefit3} />
+        <Benefit ben={Images.benefit4} />
+      </div>
     </div>
   );
 };
