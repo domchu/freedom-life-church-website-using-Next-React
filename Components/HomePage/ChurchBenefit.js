@@ -9,10 +9,10 @@ const ChurchBenefit = () => {
       <div>
         <SubHeading
           pText="WATCH AND LISTEN"
-          hText="THE BENEFITS OF  JOINING OUR CHURCH"
+          hText={`THE BENEFITS OF JOINING OUR CHURCH`}
         />
       </div>
-      <Flex>
+      <Flex justifyContent="center" margin="2rem">
         <Benefit ben={Images.benefit1} />
         <Benefit ben={Images.benefit2} />
         <Benefit ben={Images.benefit3} />

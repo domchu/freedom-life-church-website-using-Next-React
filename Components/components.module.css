@@ -53,9 +53,11 @@
   height: 100%;
 }
 
-/* .relevant__ben {
-  display: flex;
-} */
+.relevant__ben {
+  margin: 10px;
+  display: grid;
+  place-items: center;
+}
 /* .pppp {
   margin-top: 30px;
 } */
