@@ -55,7 +55,7 @@ const Navbar = () => {
         <Link href="/about" passHref>
           <a style={StyledLink}>About us</a>
         </Link>
-        <Link href="/services" passHref>
+        <Link href="/sermon" passHref>
           <a style={StyledLink}>Sermon</a>
         </Link>
         <Link href="/blog" passHref>
@@ -65,7 +65,7 @@ const Navbar = () => {
       <div style={contact}>
         <Link href="/contact" passHref>
           <Button colorScheme="yellow" size="md" p="7" style={StyledLink}>
-            CONTACT US
+            <a>CONTACT US</a>
           </Button>
         </Link>
       </div>

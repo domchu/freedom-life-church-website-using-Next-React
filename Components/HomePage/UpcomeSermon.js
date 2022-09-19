@@ -1,3 +1,4 @@
+import Link from "next/Link";
 import SubHeading from "../SubHeading";
 import { Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
@@ -36,9 +37,11 @@ const UpComeSermon = () => {
               No 233 main st. New York, <br /> United state
             </span>
           </div>
-          <Button bg="#000" size="md" p="7" m="2rem 0" color="#fff">
-            <a href="">REGISTER</a>
-          </Button>
+          <Link href="/sermon" passHref>
+            <Button bg="#000" size="md" p="7" m="2rem 0" color="#fff">
+              <a href="">REGISTER</a>
+            </Button>
+          </Link>
         </div>
         <div className="sermon__img">
           <Image src={Images.sermonImage} alt="sermon image" />
@@ -47,5 +50,12 @@ const UpComeSermon = () => {
     </>
   );
 };
+{
+  /* <Link href="/contact" passHref>
+  <Button colorScheme="yellow" size="md" p="7" style={StyledLink}>
+    <a>CONTACT US</a>
+  </Button>
+</Link>; */
+}
 
 export default UpComeSermon;
