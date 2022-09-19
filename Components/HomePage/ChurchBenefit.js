@@ -2,10 +2,11 @@ import Images from "../../public/Image";
 import SubHeading from "../SubHeading";
 import Benefit from "./Benefit";
 import { Flex } from "@chakra-ui/react";
+import components from "../components.module.css";
 
 const ChurchBenefit = () => {
   return (
-    <div>
+    <div className={components.benefits__container}>
       <div>
         <SubHeading
           pText="WATCH AND LISTEN"
