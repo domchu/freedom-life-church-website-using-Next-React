@@ -25,7 +25,15 @@ const UpComeSermon = () => {
           </p>
           <div className="time">
             <WiTime4 />
-            <span></span>
+            <span>
+              Friday 23:39 IST <br /> sunday 11:20 ISD
+            </span>
+          </div>
+          <div className="time">
+            <WiTime4 />
+            <span>
+              Friday 23:39 IST <br /> sunday 11:20 ISD
+            </span>
           </div>
         </div>
         <div className="sermon__img">
