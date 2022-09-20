@@ -74,7 +74,7 @@ const Footer = () => {
             <Link href="/About" passHref>
               <a style={Anchor}>About us</a>
             </Link>
-            <Link href="/Services" passHref>
+            <Link href="/Sermon" passHref>
               <a style={Anchor}>Sermon</a>
             </Link>
             <Link href="/Blog" passHref>

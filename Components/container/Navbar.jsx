@@ -65,7 +65,7 @@ const Navbar = () => {
       <div style={contact}>
         <Link href="/Contact" passHref>
           <Button colorScheme="yellow" size="md" p="7">
-            <a style={StyledLink}>CONTACT US</a>
+            <a style={StyledLink}>Contact Us</a>
           </Button>
         </Link>
       </div>

@@ -1,7 +1,7 @@
-import Link from "next/Link";
+import Image from "next/image";
+import Link from "next/link";
 import SubHeading from "../SubHeading";
 import { Flex, Button } from "@chakra-ui/react";
-import Image from "next/image";
 import Images from "../../public/Images";
 import { FcSearch } from "react-icons/fc";
 import { FcClock } from "react-icons/fc";
@@ -37,10 +37,10 @@ const UpComeSermon = () => {
             <div className={components.time}>
               <FcSearch />
               <span>
-                No 233 main st. New York, <br /> United state
+                No 233 main st.New York, <br /> United state
               </span>
             </div>
-            <Link href="/sermon" passHref>
+            <Link href="/Sermon" passHref>
               <Button bg="#000" size="md" p="6" m="1.5rem 0" color="#fff">
                 <a>REGISTER</a>
               </Button>
