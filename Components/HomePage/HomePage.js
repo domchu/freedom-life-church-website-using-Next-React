@@ -7,6 +7,7 @@ import { Flex } from "@chakra-ui/react";
 import ChurchBenefit from "./ChurchBenefit";
 // import Benefit from "./Benefit";
 import UpComeSermon from "./UpComeSermon";
+import TheWorld from "./TheWorld";
 
 const HomePage = () => {
   return (
@@ -41,6 +42,7 @@ const HomePage = () => {
       <LoveCompassion />
       <ChurchBenefit />
       <UpComeSermon />
+      <TheWorld />
     </div>
   );
 };
