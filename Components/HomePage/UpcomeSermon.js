@@ -24,7 +24,7 @@ const UpComeSermon = () => {
               WATCH AND LISTEN <br /> TO OUR SERMONS
             </h1>
 
-            <p style={{ marginBottom: 2 }}>
+            <p margin="">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Provident, a sunt. Quisquam.
             </p>
@@ -41,7 +41,7 @@ const UpComeSermon = () => {
               </span>
             </div>
             <Link href="/sermon" passHref>
-              <Button bg="#000" size="md" p="7" m="2rem 0" color="#fff">
+              <Button bg="#000" size="md" p="6" m="1.5rem 0" color="#fff">
                 <a>REGISTER</a>
               </Button>
             </Link>
