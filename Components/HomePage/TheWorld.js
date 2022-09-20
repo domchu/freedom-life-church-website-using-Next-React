@@ -13,7 +13,13 @@ const TheWorld = () => {
             tenetur.
           </p>
           <Link href="/Sermon" passHref>
-            <Button bg="#000" size="md" p="6" m="1.5rem 0" color="#fff">
+            <Button
+              colorScheme="yellow"
+              size="md"
+              p="6"
+              m="1.5rem 0"
+              color="#fff"
+            >
               <a>REGISTER</a>
             </Button>
           </Link>
