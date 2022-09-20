@@ -1,4 +1,4 @@
-import Images from "../../public/Image";
+import Images from "../../public/Images";
 import SubHeading from "../SubHeading";
 import Benefit from "./Benefit";
 import { Flex, Text } from "@chakra-ui/react";

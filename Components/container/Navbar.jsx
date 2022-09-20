@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Images from "../../public/Image";
+import Images from "../../public/Images";
 import Image from "next/image";
 import { Button } from "@chakra-ui/react";
 
@@ -52,18 +52,18 @@ const Navbar = () => {
         <Link href="/" passHref>
           <a style={StyledLink}>Home</a>
         </Link>
-        <Link href="/about" passHref>
+        <Link href="/About" passHref>
           <a style={StyledLink}>About us</a>
         </Link>
-        <Link href="/sermon" passHref>
+        <Link href="/Sermon" passHref>
           <a style={StyledLink}>Sermon</a>
         </Link>
-        <Link href="/blog" passHref>
+        <Link href="/Blog" passHref>
           <a style={StyledLink}>Blog</a>
         </Link>
       </div>
       <div style={contact}>
-        <Link href="/contact" passHref>
+        <Link href="/Contact" passHref>
           <Button colorScheme="yellow" size="md" p="7">
             <a style={StyledLink}>CONTACT US</a>
           </Button>

@@ -2,7 +2,7 @@ import Link from "next/Link";
 import SubHeading from "../SubHeading";
 import { Flex, Button } from "@chakra-ui/react";
 import Image from "next/image";
-import Images from "../../public/Image";
+import Images from "../../public/Images";
 import { FcSearch } from "react-icons/fc";
 import { FcClock } from "react-icons/fc";
 

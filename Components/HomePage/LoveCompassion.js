@@ -2,7 +2,7 @@ import SubHeading from "../SubHeading";
 import { Text, Button } from "@chakra-ui/react";
 import components from "../components.module.css";
 import Image from "next/image";
-import Images from "../../public/Image";
+import Images from "../../public/Images";
 import { Flex } from "@chakra-ui/react";
 
 const LoveCompassion = () => {

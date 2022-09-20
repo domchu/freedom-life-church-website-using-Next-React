@@ -1,7 +1,7 @@
 import Banner from "./Banner";
 import ChurchRelevant from "./ChurchRelevant";
 import RelevantPoint from "./RelevantPoint";
-import Images from "../../public/Image";
+import Images from "../../public/Images";
 import LoveCompassion from "./LoveCompassion";
 import { Flex } from "@chakra-ui/react";
 import ChurchBenefit from "./ChurchBenefit";
