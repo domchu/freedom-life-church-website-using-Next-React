@@ -70,5 +70,16 @@
   color: #fff;
 }
 .sermon__text {
-  background-color: #fff5eb;
+  margin-top: 2rem;
+  width: 300px;
+}
+.sermon__title {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.time {
+  display: flex;
+  margin: 0.5rem 0;
+  /* align-items: center; */
 }

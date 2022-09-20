@@ -16,23 +16,24 @@ const UpComeSermon = () => {
           hText="JOIN US AND BECOME PART OF SOMETHING GREAT"
         />
       </div>
-      <Flex justifyContent="center" margin="3rem 0" width="100%">
+      <Flex justifyContent="center" margin="3rem 0" width="100%" bg="#fff5eb">
         <div className={components.sermon__text}>
           <h4>Upcoming event</h4>
-          <h1>
+          <h1 className={components.sermon__title}>
             WATCH AND LISTEN <br /> TO OUR SERMONS
           </h1>
+
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
             a sunt. Quisquam.
           </p>
-          <div className="time">
+          <div className={components.time}>
             <FcClock />
             <span>
               Friday 23:39 IST <br /> sunday 11:20 ISD
             </span>
           </div>
-          <div className="time">
+          <div className={components.time}>
             <FcSearch />
             <span>
               No 233 main st. New York, <br /> United state
