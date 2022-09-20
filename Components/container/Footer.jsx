@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Images from "../../public/Image";
-import components from "../components.module.css";
+import Images from "../../public/Images";
+// import components from "../components.module.css";
 import Link from "next/link";
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { Text } from "@chakra-ui/react";
@@ -71,13 +71,13 @@ const Footer = () => {
             <Link href="/" passHref>
               <a style={Anchor}>Home</a>
             </Link>
-            <Link href="/about" passHref>
+            <Link href="/About" passHref>
               <a style={Anchor}>About us</a>
             </Link>
-            <Link href="/services" passHref>
+            <Link href="/Services" passHref>
               <a style={Anchor}>Sermon</a>
             </Link>
-            <Link href="/blog" passHref>
+            <Link href="/Blog" passHref>
               <a style={Anchor}>Blog</a>
             </Link>
           </div>
