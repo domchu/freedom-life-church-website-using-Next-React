@@ -69,17 +69,21 @@
   z-index: 5;
   color: #fff;
 }
+.sermon__container {
+  background-color: #fff5eb;
+}
 .sermon__text {
   margin-top: 2rem;
-  width: 300px;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  width: 400px;
 }
 .sermon__title {
-  margin: 0.5rem 0;
+  margin: 0.6rem 0;
   font-weight: bold;
   font-size: 1rem;
 }
 .time {
   display: flex;
-  margin: 0.5rem 0;
-  /* align-items: center; */
+  margin: 0.7rem 0;
 }
