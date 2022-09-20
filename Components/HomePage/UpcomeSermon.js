@@ -5,6 +5,7 @@ import Image from "next/image";
 import Images from "../../public/Images";
 import { FcSearch } from "react-icons/fc";
 import { FcClock } from "react-icons/fc";
+import components from "../components.module.css";
 
 const UpComeSermon = () => {
   return (
@@ -16,7 +17,7 @@ const UpComeSermon = () => {
         />
       </div>
       <Flex justifyContent="center" margin="3rem 0" width="100%">
-        <div className="sermon__text">
+        <div className={components.sermon__text}>
           <h4>Upcoming event</h4>
           <h1>
             WATCH AND LISTEN <br /> TO OUR SERMONS
