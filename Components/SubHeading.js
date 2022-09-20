@@ -7,7 +7,7 @@ const SubHeading = (props) => {
       <Text fontSize="10px" align="center" fontWeight="600">
         {props.pText}
       </Text>
-      <Text fontSize="3rem" align="center" fontWeight="700">
+      <Text fontSize="2.5rem" align="center" fontWeight="700">
         {props.hText}
       </Text>
     </div>
