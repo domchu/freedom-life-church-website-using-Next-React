@@ -10,9 +10,9 @@ const ReadBlog = () => {
       </div>
 
       <div className={components.read__blog__container}>
-        <div className={components.sermon__text}>
+        <div className={components.blog__text}>
           <h4>Upcoming event</h4>
-          <h1 className={components.sermon__title}>
+          <h1 className={components.blog__title}>
             WATCH AND LISTEN <br /> TO OUR SERMONS
           </h1>
 
