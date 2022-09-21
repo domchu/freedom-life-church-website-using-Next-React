@@ -122,3 +122,8 @@
   font-size: 2rem;
   font-weight: bold;
 }
+.read__blog__container {
+  background-color: #fff5eb;
+  width: 300px;
+  height: 400px;
+}

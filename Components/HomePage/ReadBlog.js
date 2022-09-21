@@ -9,7 +9,7 @@ const ReadBlog = () => {
         <SubHeading pText="READ OUR BLOG" hText="SHARE, INSPIRE AND INNOVATE" />
       </div>
 
-      <div className={components.sermon__container}>
+      <div className={components.read__blog__container}>
         <div className={components.sermon__text}>
           <h4>Upcoming event</h4>
           <h1 className={components.sermon__title}>
