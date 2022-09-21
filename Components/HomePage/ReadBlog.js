@@ -1,10 +1,11 @@
 import components from "../components.module.css";
+import { Text } from "@chakra-ui/react";
 
 const ReadBlog = () => {
   return (
     <>
-      <div className={components.world__container}>
-        <div className={components.world__text}>
+      <div className={components.read__container}>
+        <div className={components.read__text}>
           <Text className={components.world__title}>
             WE WANT TO <br />
             SERVE THE WORLD
