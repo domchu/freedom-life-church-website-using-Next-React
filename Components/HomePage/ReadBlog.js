@@ -1,6 +1,7 @@
-import components from "../components.module.css";
-import { Text } from "@chakra-ui/react";
 import SubHeading from "../SubHeading";
+import components from "../components.module.css";
+import BlogPost from "../BlogPost";
+import { Flex } from "@chakra-ui/react";
 
 const ReadBlog = () => {
   return (
@@ -8,24 +9,14 @@ const ReadBlog = () => {
       <div>
         <SubHeading pText="READ OUR BLOG" hText="SHARE, INSPIRE AND INNOVATE" />
       </div>
-
-      <div className={components.read__blog__container}>
-        <div className={components.blog__text}>
-          <h4>RELATIONSHIP</h4>
-          <h1 className={components.blog__title}>
-            WATCH AND LISTEN <br /> TO OUR SERMONS
-          </h1>
-
-          <p margin="">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
-            a sunt. Quisquam.
-          </p>
-
-          <Text margin="2rem 0" fontWeight="bold">
-            By Mathew Johnson <br /> Tuesday 13 May, 2021
-          </Text>
-        </div>
-      </div>
+      <Flex>
+        <BlogPost
+          h4Text="RELATIONSHIP"
+          pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
+            a sunt. Quisquam."
+          textTitle="By Mathew Johnson <br /> Tuesday 13 May, 2021"
+        />
+      </Flex>
     </>
   );
 };
