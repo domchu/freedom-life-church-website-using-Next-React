@@ -11,7 +11,7 @@ const ReadBlog = () => {
 
       <div className={components.read__blog__container}>
         <div className={components.blog__text}>
-          <h4>Upcoming event</h4>
+          <h4>RELATIONSHIP</h4>
           <h1 className={components.blog__title}>
             WATCH AND LISTEN <br /> TO OUR SERMONS
           </h1>
@@ -21,7 +21,7 @@ const ReadBlog = () => {
             a sunt. Quisquam.
           </p>
 
-          <Text>
+          <Text margin="2rem 0" fontWeight="bold">
             By Mathew Johnson <br /> Tuesday 13 May, 2021
           </Text>
         </div>
