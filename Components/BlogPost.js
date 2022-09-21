@@ -1,5 +1,5 @@
-import components from "../components.module.css";
 import { Text } from "@chakra-ui/react";
+import components from "../components.module.css";
 
 const BlogPost = (props) => {
   return (

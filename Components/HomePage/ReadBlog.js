@@ -1,5 +1,4 @@
 import SubHeading from "../SubHeading";
-import components from "../components.module.css";
 import BlogPost from "../BlogPost";
 import { Flex } from "@chakra-ui/react";
 
