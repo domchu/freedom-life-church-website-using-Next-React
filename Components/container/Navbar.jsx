@@ -52,18 +52,18 @@ const Navbar = () => {
         <Link href="/" passHref>
           <a style={StyledLink}>Home</a>
         </Link>
-        <Link href="/About" passHref>
+        <Link href="/about" passHref>
           <a style={StyledLink}>About us</a>
         </Link>
-        <Link href="/Sermon" passHref>
+        <Link href="/sermon" passHref>
           <a style={StyledLink}>Sermon</a>
         </Link>
-        <Link href="/Blog" passHref>
+        <Link href="/blog" passHref>
           <a style={StyledLink}>Blog</a>
         </Link>
       </div>
       <div style={contact}>
-        <Link href="/Contact" passHref>
+        <Link href="/contact" passHref>
           <Button colorScheme="yellow" size="md" p="7">
             <a style={StyledLink}>Contact Us</a>
           </Button>
