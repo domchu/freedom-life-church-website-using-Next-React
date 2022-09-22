@@ -22,6 +22,7 @@ const HomePage = () => {
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
         sequi!"
+            div=""
           />
           <RelevantPoint
             icon={Images.icon2}
@@ -29,6 +30,7 @@ const HomePage = () => {
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
         sequi!"
+            div=""
           />
           <RelevantPoint
             icon={Images.icon4}
@@ -36,6 +38,7 @@ const HomePage = () => {
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore
         harum consectetur doloribus rerum blanditiis qui mollitia recusandae ad
         sequi!"
+            div=""
           />
         </Flex>
       </Flex>

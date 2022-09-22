@@ -9,6 +9,7 @@ const RelevantPoint = (props) => {
         <h2 className={components.title}>{props.title}</h2>
         <p>{props.text}</p>
       </div>
+      <div className={components.empty__div__div}>{props.div}</div>
     </div>
   );
 };
