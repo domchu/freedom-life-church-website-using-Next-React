@@ -5,7 +5,7 @@ const BlogPost = (props) => {
   return (
     <>
       <div className={components.read__blog__container}>
-        <div className={components.blog__text}>
+        <div className={components.blog__text} style={{ margin: "10px" }}>
           <h4>{props.h4Text}</h4>
           <h1 className={components.blog__title}>
             WATCH AND LISTEN TO OUR SERMONS

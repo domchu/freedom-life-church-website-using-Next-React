@@ -1,7 +1,6 @@
 import SubHeading from "../SubHeading";
 import BlogPost from "../BlogPost";
 import { Flex } from "@chakra-ui/react";
-// import components from "./components.module.css";
 
 const ReadBlog = () => {
   return (
@@ -9,7 +8,7 @@ const ReadBlog = () => {
       <div>
         <SubHeading pText="READ OUR BLOG" hText="SHARE, INSPIRE AND INNOVATE" />
       </div>
-      <Flex>
+      <Flex justifyContent="center" alignItem="center" mt={20}>
         <BlogPost
           h4Text="RELATIONSHIP"
           pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
