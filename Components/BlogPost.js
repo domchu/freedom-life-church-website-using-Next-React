@@ -1,5 +1,5 @@
 import { Text } from "@chakra-ui/react";
-import components from "../components.module.css";
+import components from "./components.module.css";
 
 const BlogPost = (props) => {
   return (
@@ -8,13 +8,16 @@ const BlogPost = (props) => {
         <div className={components.blog__text}>
           <h4>{props.h4Text}</h4>
           <h1 className={components.blog__title}>
-            WATCH AND LISTEN <br /> TO OUR SERMONS
+            WATCH AND LISTEN TO OUR SERMONS
           </h1>
           <p>{props.pText}</p>
 
-          <Text margin="2rem 0" fontWeight="bold">
+          <Text marginTop="2rem" fontWeight="bold">
             {props.textTitle}
           </Text>
+          <span margin="0.25rem" fontWeight="900">
+            {props.textName}
+          </span>
         </div>
       </div>
     </>

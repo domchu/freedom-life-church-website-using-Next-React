@@ -14,7 +14,32 @@ const ReadBlog = () => {
           h4Text="RELATIONSHIP"
           pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
             a sunt. Quisquam."
-          textTitle="By Mathew Johnson <br /> Tuesday 13 May, 2021"
+          textTitle="By Mathew Johnson  "
+          textName="Tuesday 13 May, 2021"
+        />
+
+        <BlogPost
+          h4Text="RELATIONSHIP"
+          pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
+            a sunt. Quisquam."
+          textTitle="By Mathew Johnson  "
+          textName="Tuesday 13 May, 2021"
+        />
+
+        <BlogPost
+          h4Text="RELATIONSHIP"
+          pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
+            a sunt. Quisquam."
+          textTitle="By Mathew Johnson  "
+          textName="Tuesday 13 May, 2021"
+        />
+
+        <BlogPost
+          h4Text="RELATIONSHIP"
+          pText=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
+            a sunt. Quisquam."
+          textTitle="By Mathew Johnson  "
+          textName="Tuesday 13 May, 2021"
         />
       </Flex>
     </>
