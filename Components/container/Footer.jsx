@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Images from "../../public/Images";
-// import components from "../components.module.css";
 import Link from "next/link";
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 import { Text } from "@chakra-ui/react";
@@ -23,7 +22,7 @@ const Anchor = {
   margin: ".2rem 0 .9rem",
 };
 const Connect = {
-  color: "#fff",
+  color: "#ffd2a4",
   display: " flex",
   fontSize: "1rem",
   cursor: "pointer",
@@ -36,7 +35,6 @@ const Search = {
   padding: "1rem",
   borderRadius: "5px",
   color: "#fff",
-  // size: "md",
   border: "none",
   backgroundColor: "transparent",
   border: "1px solid gray",
@@ -52,7 +50,12 @@ const Footer = () => {
               <Image src={Images.logo} alt="" />
             </a>
           </Link>
-          <Text fontSize="sm" fontStyle="600" margin=".7rem 0 2rem 0">
+          <Text
+            fontSize="sm"
+            fontStyle="600"
+            margin=".7rem 0 2rem 0"
+            color="#ffd2a4"
+          >
             &copy; FINSWEET 2022
           </Text>
           <Text fontSize="sm" fontStyle="600" margin=".5rem 0">
@@ -110,7 +113,6 @@ const Footer = () => {
       <Text
         display="flex"
         justifyContent="center"
-        // alignItems="center"
         backgroundColor="#000"
         color="#fff"
         fontSize="1.5rem"

@@ -18,7 +18,7 @@ const TheWorld = () => {
           </p>
           <Link href="/Sermon" passHref>
             <Button
-              colorScheme="yellow"
+              colorScheme="#ffd2a4"
               size="md"
               p="6"
               m="1.5rem 0"

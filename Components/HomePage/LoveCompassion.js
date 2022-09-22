@@ -18,7 +18,7 @@ const LoveCompassion = () => {
         laudantium! Distinctio, officia amet.
       </p>
       <stack className={components.btn__btn}>
-        <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
+        <Button colorScheme="#ffd2a4" size="md" p="7" m="2rem 0">
           LEARN MORE
         </Button>
       </stack>
