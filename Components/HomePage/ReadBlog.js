@@ -15,6 +15,7 @@ const ReadBlog = () => {
             a sunt. Quisquam."
           textTitle="By Mathew Johnson  "
           textName="Tuesday 13 May, 2021"
+          //   div=""
         />
 
         <BlogPost

@@ -145,3 +145,14 @@
   font-weight: 700;
   font-size: 1.2rem;
 }
+.read__blog__container:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.read__blog__container:first-child .empty__div {
+  height: 13px;
+  background-color: #ffd0a0;
+  width: 100%;
+}

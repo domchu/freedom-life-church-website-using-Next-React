@@ -19,6 +19,7 @@ const BlogPost = (props) => {
             {props.textName}
           </span>
         </div>
+        <div className={components.empty__div}>{props.div}</div>
       </div>
     </>
   );
