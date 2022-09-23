@@ -209,3 +209,14 @@
 .contact__text__text {
   color: #ffd2a4;
 }
+.social__contact__icons {
+  display: flex !important;
+  justify-content: space-between;
+  margin: 10px 10px 0 0;
+  width: 100px;
+  color: #000;
+}
+.social__contact__icons:hover {
+  /* transform: scale(1.5); */
+  /* color: #ffd0a0; */
+}

@@ -29,20 +29,20 @@ const Contact = () => {
           </Box>
           <Box>
             <span className={components.address__title}>Find us here</span>
-            <Flex style={{}}>
+            <Flex className={components.social__contact__icons}>
               <Link href="/" passHref>
                 <a>
-                  <BsFacebook color="#000" />
+                  <BsFacebook />
                 </a>
               </Link>
               <Link href="/" passHref>
                 <a>
-                  <BsTwitter color="#000" />
+                  <BsTwitter />
                 </a>
               </Link>
               <Link href="/" passHref>
                 <a>
-                  <BsLinkedin color="#000" />
+                  <BsLinkedin />
                 </a>
               </Link>
             </Flex>
