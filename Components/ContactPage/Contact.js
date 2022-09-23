@@ -17,13 +17,13 @@ const Contact = () => {
         <div>
           <Box>
             <span className={components.address__title}>Address</span>
-            <Text m="0 0 1rem 0" fontWeight="650">
+            <Text m="0 0 1rem 0" fontWeight="650" fontSize="1.5rem">
               NH 234 PUBLIC SQUARE <br /> SAN FRANCISCO 65368
             </Text>
           </Box>
           <Box>
             <span className={components.address__title}>Contact Details</span>
-            <Text m="0 0 1rem 0" fontWeight="650">
+            <Text m="0 0 1rem 0" fontWeight="650" fontSize="1.5rem">
               (480) 555-0103 <br /> FINSWEET@EXAMPLE.COM
             </Text>
           </Box>
@@ -80,7 +80,18 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <Button bac>Send Message</Button>
+            <Link href="/contact" passHref>
+              <Button
+                background="#ffd2a4"
+                size="md"
+                p="7"
+                m="1rem 0"
+                color="#000"
+                width="100%"
+              >
+                <a>SEND MESSAGE</a>
+              </Button>
+            </Link>
           </form>
         </div>
       </div>
