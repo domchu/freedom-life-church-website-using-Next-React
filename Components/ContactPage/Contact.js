@@ -1,11 +1,13 @@
-import React from "react";
-
-const Contacts = () => {
+import { Box } from "@chakra-ui/react";
+import components from "../components.module.css";
+const Contact = () => {
   return (
-    <div>
-      <h2>gytcuyfiugoiloihkl</h2>
-    </div>
+    <>
+      <Box className={components.contact__container}>
+        <h2>contact</h2>
+      </Box>
+    </>
   );
 };
 
-export default Contacts;
+export default Contact;

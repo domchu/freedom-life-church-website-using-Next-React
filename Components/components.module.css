@@ -155,15 +155,18 @@
   background-color: #ffd0a0;
   width: 100%;
 }
-/* .relevant__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
 
 .empty__div__div {
   height: 13px;
   background-color: #ffd0a0;
   width: 100%;
+}
+/* the contact part of the project */
+.contact__container {
+  background-image: url("../public/Images/contact-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
 }
