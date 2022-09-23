@@ -85,9 +85,21 @@ const Footer = () => {
         <div style={{ height: "180px" }}>
           <h3 style={ConnectText}>Connect</h3>
           <Flex style={(Connect, { justifyContent: "space-around" })}>
-            <BsFacebook color="#ffd2a4" />
-            <BsTwitter color="#ffd2a4" />
-            <BsLinkedin color="#ffd2a4" />
+            <Link href="/" passHref>
+              <a>
+                <BsFacebook color="#ffd2a4" />
+              </a>
+            </Link>
+            <Link href="/" passHref>
+              <a>
+                <BsTwitter color="#ffd2a4" />
+              </a>
+            </Link>
+            <Link href="/" passHref>
+              <a>
+                <BsLinkedin color="#ffd2a4" />
+              </a>
+            </Link>
           </Flex>
         </div>
         <div>
