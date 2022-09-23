@@ -1,4 +1,4 @@
-import { Box, Text, Flex } from "@chakra-ui/react";
+import { Box, Text, Flex, Button } from "@chakra-ui/react";
 import Link from "next/link";
 import components from "../components.module.css";
 import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
@@ -46,6 +46,41 @@ const Contact = () => {
             </Link>
           </Flex>
         </Box>
+        <div className={components.form}>
+          <span>CONTACT Form</span>
+          <form action="">
+            <div>
+              <input
+                type="text"
+                className={components.input}
+                placeholder="Your Full Name"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                className={components.input}
+                placeholder="Your Email Address"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                className={components.input}
+                placeholder="Query Related"
+              />
+            </div>
+            <div>
+              <textarea
+                className={components.message}
+                placeholder="Message"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </div>
+            <Button>Send Message</Button>
+          </form>
+        </div>
       </div>
     </>
   );
