@@ -168,13 +168,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
 }
 .contact__text {
   position: absolute;
   z-index: 2;
   color: #fff;
-  margin: 5rem 0 0 5rem;
+  margin: 10rem 0 0 5rem;
 }
 
 .address {
@@ -198,9 +198,14 @@
   margin: 0.5rem 0;
   padding: 1rem 0.9rem;
   border-radius: 3px;
-  font-weight: bold;
 }
 .message {
   width: 100%;
   padding: 0.5rem 0.5rem;
+}
+.form__text {
+  font-weight: 600;
+}
+.contact__text__text {
+  color: #ffd2a4;
 }

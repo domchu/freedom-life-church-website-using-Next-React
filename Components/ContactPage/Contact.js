@@ -7,8 +7,8 @@ const Contact = () => {
     <>
       <Box className={components.contact__container}>
         <Box className={components.contact__text}>
-          <span>contact</span>
-          <Text>
+          <span className={components.contact__text__text}>contact</span>
+          <Text fontSize="2.5rem" fontWeight="bold">
             GET IN TOUCH WITH <br /> OUR CHURCH
           </Text>
         </Box>
@@ -49,13 +49,14 @@ const Contact = () => {
           </Box>
         </div>
         <div className={components.form}>
-          <span>CONTACT FORM:</span>
+          <span className={components.form__text}>CONTACT FORM:</span>
           <form action="">
             <div>
               <input
                 type="text"
                 className={components.input}
                 placeholder="Your Full Name"
+                required
               />
             </div>
             <div>
@@ -63,6 +64,7 @@ const Contact = () => {
                 type="email"
                 className={components.input}
                 placeholder="Your Email Address"
+                required
               />
             </div>
             <div>
@@ -70,6 +72,7 @@ const Contact = () => {
                 type="text"
                 className={components.input}
                 placeholder="Query Related"
+                required
               />
             </div>
             <div>
