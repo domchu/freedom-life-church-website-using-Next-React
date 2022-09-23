@@ -2,7 +2,7 @@ import Image from "next/image";
 import Images from "../../public/Images";
 import Link from "next/link";
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import { Flex } from "@chakra-ui/react";
 
@@ -44,9 +44,9 @@ const Search = {
 
 const Footer = () => {
   return (
-    <div>
+    <>
       <footer style={Section}>
-        <div>
+        <Box>
           <Link href="/" passHref>
             <a style={ImageLogo}>
               <Image src={Images.logo} alt="logo" />
@@ -64,10 +64,10 @@ const Footer = () => {
           <Text fontSize="sm" fontStyle="600" margin=".5rem 0">
             FINSWEET@EXAMPLE.COM
           </Text>
-        </div>
-        <div>
+        </Box>
+        <Box>
           <span>QUICK LINKS</span>
-          <div style={QuickLink}>
+          <Box style={QuickLink}>
             <Link href="/" passHref>
               <a style={Anchor}>Home</a>
             </Link>
@@ -80,9 +80,9 @@ const Footer = () => {
             <Link href="/Blog" passHref>
               <a style={Anchor}>Blog</a>
             </Link>
-          </div>
-        </div>
-        <div style={{ height: "180px" }}>
+          </Box>
+        </Box>
+        <Box style={{ height: "180px" }}>
           <h3 style={ConnectText}>Connect</h3>
           <Flex style={(Connect, { justifyContent: "space-around" })}>
             <Link href="/" passHref>
@@ -101,8 +101,8 @@ const Footer = () => {
               </a>
             </Link>
           </Flex>
-        </div>
-        <div>
+        </Box>
+        <Box>
           <Text fontSize="4xl">
             SUBSCRIBE TO GET LATEST <br /> UPDATES AND NEWS
           </Text>
@@ -123,7 +123,7 @@ const Footer = () => {
               SUBSCRIBE
             </Button>
           </div>
-        </div>
+        </Box>
       </footer>
       <Text
         display="flex"
@@ -134,7 +134,7 @@ const Footer = () => {
       >
         &copy; Copyright 2022 all right reserved Next/React by Mr Dominic
       </Text>
-    </div>
+    </>
   );
 };
 
