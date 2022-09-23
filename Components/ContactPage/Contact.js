@@ -14,40 +14,42 @@ const Contact = () => {
         </Box>
       </Box>
       <div className={components.address}>
-        <Box>
-          <span>Address</span>
-          <Text>
-            NH 234 PUBLIC SQUARE <br /> SAN FRANCISCO 65368
-          </Text>
-        </Box>
-        <Box>
-          <span>Contact Details</span>
-          <Text>
-            (480) 555-0103 <br /> FINSWEET@EXAMPLE.COM
-          </Text>
-        </Box>
-        <Box>
-          <span>Find us here</span>
-          <Flex style={{}}>
-            <Link href="/" passHref>
-              <a>
-                <BsFacebook color="#ffd2a4" />
-              </a>
-            </Link>
-            <Link href="/" passHref>
-              <a>
-                <BsTwitter color="#ffd2a4" />
-              </a>
-            </Link>
-            <Link href="/" passHref>
-              <a>
-                <BsLinkedin color="#ffd2a4" />
-              </a>
-            </Link>
-          </Flex>
-        </Box>
+        <div>
+          <Box>
+            <span className={components.address__title}>Address</span>
+            <Text m="0 0 1rem 0" fontWeight="650">
+              NH 234 PUBLIC SQUARE <br /> SAN FRANCISCO 65368
+            </Text>
+          </Box>
+          <Box>
+            <span className={components.address__title}>Contact Details</span>
+            <Text m="0 0 1rem 0" fontWeight="650">
+              (480) 555-0103 <br /> FINSWEET@EXAMPLE.COM
+            </Text>
+          </Box>
+          <Box>
+            <span className={components.address__title}>Find us here</span>
+            <Flex style={{}}>
+              <Link href="/" passHref>
+                <a>
+                  <BsFacebook color="#000" />
+                </a>
+              </Link>
+              <Link href="/" passHref>
+                <a>
+                  <BsTwitter color="#000" />
+                </a>
+              </Link>
+              <Link href="/" passHref>
+                <a>
+                  <BsLinkedin color="#000" />
+                </a>
+              </Link>
+            </Flex>
+          </Box>
+        </div>
         <div className={components.form}>
-          <span>CONTACT Form</span>
+          <span>CONTACT FORM:</span>
           <form action="">
             <div>
               <input
@@ -78,7 +80,7 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <Button>Send Message</Button>
+            <Button bac>Send Message</Button>
           </form>
         </div>
       </div>
