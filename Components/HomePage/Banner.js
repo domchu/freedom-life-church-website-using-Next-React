@@ -17,7 +17,7 @@ const Banner = () => {
           </Text>
         </stack>
         <stack>
-          <Button colorScheme="#ffd2a4" size="md" p="7" m="2rem 0">
+          <Button background="#ffd2a4" size="md" p="7" m="2rem 0">
             LEARN MORE
           </Button>
         </stack>

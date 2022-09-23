@@ -22,7 +22,6 @@ const Anchor = {
   margin: ".2rem 0 .9rem",
 };
 const Connect = {
-  color: "#ffd2a4",
   display: " flex",
   fontSize: "1rem",
   cursor: "pointer",
@@ -30,6 +29,9 @@ const Connect = {
 };
 const ConnectText = {
   fontSize: "2rem",
+};
+const ImageLogo = {
+  color: "#ffd2a4",
 };
 const Search = {
   padding: "1rem",
@@ -46,16 +48,11 @@ const Footer = () => {
       <footer style={Section}>
         <div>
           <Link href="/" passHref>
-            <a>
-              <Image src={Images.logo} alt="" />
+            <a style={ImageLogo}>
+              <Image src={Images.logo} alt="logo" />
             </a>
           </Link>
-          <Text
-            fontSize="sm"
-            fontStyle="600"
-            margin=".7rem 0 2rem 0"
-            color="#ffd2a4"
-          >
+          <Text fontSize="sm" fontStyle="600" margin=".7rem 0 2rem 0">
             &copy; FINSWEET 2022
           </Text>
           <Text fontSize="sm" fontStyle="600" margin=".5rem 0">
@@ -88,9 +85,9 @@ const Footer = () => {
         <div style={{ height: "180px" }}>
           <h3 style={ConnectText}>Connect</h3>
           <Flex style={(Connect, { justifyContent: "space-around" })}>
-            <BsFacebook />
-            <BsTwitter />
-            <BsLinkedin />
+            <BsFacebook color="#ffd2a4" />
+            <BsTwitter color="#ffd2a4" />
+            <BsLinkedin color="#ffd2a4" />
           </Flex>
         </div>
         <div>
@@ -104,7 +101,13 @@ const Footer = () => {
               placeholder="Youremail@gmail.com"
               style={Search}
             />
-            <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
+            <Button
+              background="#ffd2a4"
+              size="md"
+              p="7"
+              m="2rem 0"
+              color="#000"
+            >
               SUBSCRIBE
             </Button>
           </div>
