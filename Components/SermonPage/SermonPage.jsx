@@ -14,6 +14,9 @@ const SermonPage = () => {
         </div>
       </div>
       <UpComeSermon />
+      <div className={components.all__events}>
+        <Text>VIEW ALL EVENTS</Text>
+      </div>
     </>
   );
 };

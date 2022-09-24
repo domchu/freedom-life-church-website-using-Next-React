@@ -243,3 +243,11 @@
   text-transform: uppercase;
   font-family: Tahoma;
 }
+.all__events {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 13rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
