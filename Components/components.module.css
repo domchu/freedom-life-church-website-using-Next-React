@@ -218,4 +218,13 @@
 }
 /* the sermon part of the project */
 .sermon__container {
+  background-image: url("../public/Images/sermon-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+.sermon__text {
+  position: absolute;
 }
