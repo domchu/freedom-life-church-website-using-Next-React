@@ -1,9 +1,5 @@
-// import Link from "next/link";
 import components from "../components.module.css";
-import { Text, Flex, Button } from "@chakra-ui/react";
-// import { FcSearch, FcClock } from "react-icons/fc";
-// import Image from "next/image";
-// import Images from "../../public/Images";
+import { Text } from "@chakra-ui/react";
 import UpComeSermon from "../HomePage/UpComeSermon";
 
 const SermonPage = () => {

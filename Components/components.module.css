@@ -1,3 +1,9 @@
+/* ::body {
+  margin: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+} */
+
 .banner__container {
   background-image: url("../public/Images/banner.png");
   background-position: center;
