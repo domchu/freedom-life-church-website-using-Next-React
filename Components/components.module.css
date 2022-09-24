@@ -217,14 +217,15 @@
   color: #000;
 }
 /* the sermon part of the project */
-.sermon__container {
+.sermon__container__page {
   background-image: url("../public/Images/sermon-banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 50vh;
+  position: relative;
 }
-.sermon__text {
+.sermon__text__sermon {
   position: absolute;
 }
