@@ -5,9 +5,9 @@ const SermonPage = () => {
   return (
     <div className={components.sermon__container}>
       <div className={components.sermon__text}>
-        <span className={components.contact__text__title}>contact</span>
+        <span className={components.contact__text__title}>Sermon</span>
         <Text fontSize="" fontWeight="">
-          GET IN TOUCH WITH <br /> OUR CHURCH
+          TAKE PART IN OUR SERMON
         </Text>
       </div>
     </div>
