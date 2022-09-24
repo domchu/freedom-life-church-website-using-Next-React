@@ -2,14 +2,6 @@ import Head from "next/head";
 import styled from "styled-components";
 import ContactPage from "../Components/ContactPage/ContactPage";
 
-const Hero = styled.div`
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-`;
-
 const Heading = styled.h1`
   color: #000;
   font-size: 3rem;
@@ -25,9 +17,6 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ContactPage />
-      <Hero>
-        <heading>Contact page</heading>
-      </Hero>
     </>
   );
 }
