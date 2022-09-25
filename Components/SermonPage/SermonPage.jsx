@@ -33,8 +33,8 @@ const SermonPage = () => {
         />
         <EventSermon
           heading="Upcoming event"
-          title="100 RANDOMS ACTS"
-          title2="OF KINDNESS"
+          title="FAITH IS A PROCESS"
+          title2="NOT A DESTINATION"
           textMessage="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident"
           days=" Friday 23:39 IST "
           days2=" sunday 11:20 ISD"
@@ -43,8 +43,8 @@ const SermonPage = () => {
         />
         <EventSermon
           heading="Upcoming event"
-          title="100 RANDOMS ACTS"
-          title2="OF KINDNESS"
+          title="THERE IS NOTHING"
+          title2="IMPOSSIBLE"
           textMessage="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident."
           days=" Friday 23:39 IST "
           days2=" sunday 11:20 ISD"
@@ -53,8 +53,8 @@ const SermonPage = () => {
         />
         <EventSermon
           heading="Upcoming event"
-          title="100 RANDOMS ACTS"
-          title2="OF KINDNESS"
+          title="WATCH AND LISTEN"
+          title2="TO OUR SERMON"
           textMessage="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident."
           days=" Friday 23:39 IST "
           days2=" sunday 11:20 ISD"

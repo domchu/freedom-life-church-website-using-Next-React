@@ -3,14 +3,6 @@ import SermonPage from "../Components/SermonPage/SermonPage";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 
-const Hero = styled.div`
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-`;
-
 const Heading = styled.h1`
   color: #000;
   font-size: 3rem;
@@ -26,9 +18,6 @@ export default function Sermon() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SermonPage />
-      <Hero>
-        <heading>Sermon page</heading>
-      </Hero>
     </>
   );
 }

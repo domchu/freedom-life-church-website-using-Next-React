@@ -255,6 +255,9 @@
   background-color: #fff5eb;
   margin: 0 1rem;
 }
+.sermon__title {
+  font-size: 1.5rem;
+}
 .time__sub {
   display: flex;
   margin: 1rem 0;
