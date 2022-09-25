@@ -79,10 +79,10 @@
   background-color: #fff5eb;
 }
 .sermon__text {
-  margin-top: 2rem;
-  padding-left: 4rem;
+  margin-top: 5rem;
+  padding-left: 2rem;
   padding-right: 2rem;
-  width: 400px;
+  width: 333px;
 }
 .sermon__text h4 {
   color: #d79861;
@@ -247,10 +247,18 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 13rem;
+  margin-top: 10rem;
   font-size: 3rem;
   font-weight: bold;
 }
 .sub__sermon__container {
   background-color: #fff5eb;
+  margin: 0 1rem;
+}
+.time__sub {
+  display: flex;
+  margin: 1rem 0;
+}
+.time__date {
+  padding-left: 0.5rem;
 }
