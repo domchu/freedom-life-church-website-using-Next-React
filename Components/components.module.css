@@ -247,7 +247,10 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 13rem 0;
+  margin-top: 13rem;
   font-size: 3rem;
   font-weight: bold;
+}
+.sub__sermon__container {
+  background-color: #fff5eb;
 }

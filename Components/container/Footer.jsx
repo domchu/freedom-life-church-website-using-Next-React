@@ -71,13 +71,13 @@ const Footer = () => {
             <Link href="/" passHref>
               <a style={Anchor}>Home</a>
             </Link>
-            <Link href="/About" passHref>
+            <Link href="/about" passHref>
               <a style={Anchor}>About us</a>
             </Link>
-            <Link href="/Sermon" passHref>
+            <Link href="/sermon" passHref>
               <a style={Anchor}>Sermon</a>
             </Link>
-            <Link href="/Blog" passHref>
+            <Link href="/blog" passHref>
               <a style={Anchor}>Blog</a>
             </Link>
           </Box>
