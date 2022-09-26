@@ -1,7 +1,13 @@
-import styles from "../styles/Home.module.css";
+import components from "../components.module.css";
 
 const BlogPage = () => {
-  return <div>BlogPage</div>;
+  return (
+    <>
+      <div className={components.blog__container}>
+        <h2>blogPage</h2>
+      </div>
+    </>
+  );
 };
 
 export default BlogPage;

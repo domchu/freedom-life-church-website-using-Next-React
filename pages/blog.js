@@ -1,7 +1,5 @@
 import Head from "next/head";
-// import Navbar from "../Components/Navbar";
-import styles from "../styles/Home.module.css";
-import styled from "../styled-components";
+import styled from "styled-components";
 import BlogPage from "../Components/BlogPage/BlogPage";
 
 const Hero = styled.div`
@@ -12,7 +10,7 @@ const Hero = styled.div`
   background-color: #fff;
 `;
 
-const Head = styled.h1`
+const Heading = styled.h1`
   color: #000;
   font-size: 3rem;
   font-weight: bold;
