@@ -1,6 +1,5 @@
 import components from "../components.module.css";
 import { Box, Text } from "@chakra-ui/react";
-// import SubHeading from "../SubHeading";
 
 const BlogPage = () => {
   return (
