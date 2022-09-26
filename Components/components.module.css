@@ -268,3 +268,10 @@
 .blog__container {
   background-color: #f5f2f0;
 }
+.blog__text {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  margin-top: 6rem;
+}
