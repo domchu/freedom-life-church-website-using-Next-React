@@ -1,3 +1,9 @@
+/* ::body {
+  margin: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+} */
+
 .banner__container {
   background-image: url("../public/Images/banner.png");
   background-position: center;
@@ -73,10 +79,10 @@
   background-color: #fff5eb;
 }
 .sermon__text {
-  margin-top: 2rem;
-  padding-left: 4rem;
+  margin-top: 5rem;
+  padding-left: 2rem;
   padding-right: 2rem;
-  width: 400px;
+  width: 333px;
 }
 .sermon__text h4 {
   color: #d79861;
@@ -155,15 +161,117 @@
   background-color: #ffd0a0;
   width: 100%;
 }
-/* .relevant__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
 
 .empty__div__div {
   height: 13px;
   background-color: #ffd0a0;
   width: 100%;
+}
+/* the contact part of the project */
+.contact__container {
+  background-image: url("../public/Images/contact-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+.contact__text {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  margin: 10rem 0 0 5rem;
+}
+
+.address {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f2f0;
+}
+.address__title {
+  color: #808080;
+  margin-bottom: 0.4rem;
+}
+.form {
+  margin: 2rem 0;
+}
+.input {
+  width: 600px;
+  color: #30313b;
+  margin: 0.5rem 0;
+  padding: 1rem 0.9rem;
+  border-radius: 3px;
+}
+.message {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+}
+.form__text {
+  font-weight: 600;
+}
+.contact__text__text {
+  color: #ffd2a4;
+}
+.social__contact__icons {
+  display: flex !important;
+  justify-content: space-between;
+  margin: 10px 10px 0 0;
+  width: 100px;
+  color: #000;
+}
+/* the sermon part of the project */
+.sermon__container__page {
+  background-image: url("../public/Images/sermon-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.sermon__text__sermon {
+  position: absolute;
+  margin: 10rem 0 0 7rem;
+}
+.sermon__text__title {
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+.all__events {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.sub__sermon__container {
+  background-color: #fff5eb;
+  margin: 0 1rem;
+}
+.sermon__title {
+  font-size: 1.5rem;
+}
+.time__sub {
+  display: flex;
+  margin: 1rem 0;
+}
+.time__date {
+  padding-left: 0.5rem;
+}
+.blog__container {
+  background-color: #f5f2f0;
+}
+.blog__text {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  margin-top: 6rem;
 }

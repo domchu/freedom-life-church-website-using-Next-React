@@ -15,7 +15,7 @@ const Nav = {
 };
 const StyledLink = {
   margin: "0 1rem",
-  fontSize: "1em",
+  fontSize: "1.2em",
 };
 const NavLink = {
   alignItems: "center",
@@ -64,7 +64,7 @@ const Navbar = () => {
       </div>
       <div style={contact}>
         <Link href="/contact" passHref>
-          <Button colorScheme="#ffd2a4" size="md" p="7">
+          <Button background="#ffd2a4" size="md" p="7" color="#000">
             <a style={StyledLink}>Contact Us</a>
           </Button>
         </Link>

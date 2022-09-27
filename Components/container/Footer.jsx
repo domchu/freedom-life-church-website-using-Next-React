@@ -2,7 +2,7 @@ import Image from "next/image";
 import Images from "../../public/Images";
 import Link from "next/link";
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
 import { Flex } from "@chakra-ui/react";
 
@@ -22,7 +22,6 @@ const Anchor = {
   margin: ".2rem 0 .9rem",
 };
 const Connect = {
-  color: "#ffd2a4",
   display: " flex",
   fontSize: "1rem",
   cursor: "pointer",
@@ -30,6 +29,9 @@ const Connect = {
 };
 const ConnectText = {
   fontSize: "2rem",
+};
+const ImageLogo = {
+  color: "#ffd2a4",
 };
 const Search = {
   padding: "1rem",
@@ -42,20 +44,15 @@ const Search = {
 
 const Footer = () => {
   return (
-    <div>
+    <>
       <footer style={Section}>
-        <div>
+        <Box>
           <Link href="/" passHref>
-            <a>
-              <Image src={Images.logo} alt="" />
+            <a style={ImageLogo}>
+              <Image src={Images.logo} alt="logo" />
             </a>
           </Link>
-          <Text
-            fontSize="sm"
-            fontStyle="600"
-            margin=".7rem 0 2rem 0"
-            color="#ffd2a4"
-          >
+          <Text fontSize="sm" fontStyle="600" margin=".7rem 0 2rem 0">
             &copy; FINSWEET 2022
           </Text>
           <Text fontSize="sm" fontStyle="600" margin=".5rem 0">
@@ -67,33 +64,45 @@ const Footer = () => {
           <Text fontSize="sm" fontStyle="600" margin=".5rem 0">
             FINSWEET@EXAMPLE.COM
           </Text>
-        </div>
-        <div>
+        </Box>
+        <Box>
           <span>QUICK LINKS</span>
-          <div style={QuickLink}>
+          <Box style={QuickLink}>
             <Link href="/" passHref>
               <a style={Anchor}>Home</a>
             </Link>
-            <Link href="/About" passHref>
+            <Link href="/about" passHref>
               <a style={Anchor}>About us</a>
             </Link>
-            <Link href="/Sermon" passHref>
+            <Link href="/sermon" passHref>
               <a style={Anchor}>Sermon</a>
             </Link>
-            <Link href="/Blog" passHref>
+            <Link href="/blog" passHref>
               <a style={Anchor}>Blog</a>
             </Link>
-          </div>
-        </div>
-        <div style={{ height: "180px" }}>
+          </Box>
+        </Box>
+        <Box style={{ height: "180px" }}>
           <h3 style={ConnectText}>Connect</h3>
           <Flex style={(Connect, { justifyContent: "space-around" })}>
-            <BsFacebook />
-            <BsTwitter />
-            <BsLinkedin />
+            <Link href="/" passHref>
+              <a>
+                <BsFacebook color="#ffd2a4" />
+              </a>
+            </Link>
+            <Link href="/" passHref>
+              <a>
+                <BsTwitter color="#ffd2a4" />
+              </a>
+            </Link>
+            <Link href="/" passHref>
+              <a>
+                <BsLinkedin color="#ffd2a4" />
+              </a>
+            </Link>
           </Flex>
-        </div>
-        <div>
+        </Box>
+        <Box>
           <Text fontSize="4xl">
             SUBSCRIBE TO GET LATEST <br /> UPDATES AND NEWS
           </Text>
@@ -104,11 +113,17 @@ const Footer = () => {
               placeholder="Youremail@gmail.com"
               style={Search}
             />
-            <Button colorScheme="yellow" size="md" p="7" m="2rem 0">
+            <Button
+              background="#ffd2a4"
+              size="md"
+              p="7"
+              m="2rem 0"
+              color="#000"
+            >
               SUBSCRIBE
             </Button>
           </div>
-        </div>
+        </Box>
       </footer>
       <Text
         display="flex"
@@ -119,7 +134,7 @@ const Footer = () => {
       >
         &copy; Copyright 2022 all right reserved Next/React by Mr Dominic
       </Text>
-    </div>
+    </>
   );
 };
 
